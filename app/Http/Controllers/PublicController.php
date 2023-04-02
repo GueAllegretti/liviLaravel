@@ -5,7 +5,12 @@ namespace App\Http\Controllers;
 class PublicController extends Controller
 {
     public function index(){
-        return view('index');
+        $services = [
+            ['id' => 1, 'name' => 'Impianti Domotici e Automazione', 'icon' => '/img/icon/house-signal-solid.svg'],
+            ['id' => 2, 'name' => 'Impianti Fotovoltaici civili e industriali', 'icon' => '/img/icon/sun-solid.svg'],
+            ['id' => 3, 'name' => 'Videosorveglianza e Antintrusione e Antincendio', 'icon' => '/img/icon/house-lock-solid.svg']
+        ];
+        return view('index', ['services' => $services]);
     }
 
     public function work() {

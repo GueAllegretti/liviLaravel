@@ -54,19 +54,14 @@
 
 @else   
 
-<div class="col-lg-4 col-md-6 portfolio-item first wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-  <div class="portfolio-inner">
-      <img class="img-fluid w-100" style="height:300px" src="{{$img}}" alt="">
-      <div class="text-center p-4">
-          <p class="text-cg mb-2">{{$name}}</p>
-      </div>
-      <div class="portfolio-text text-center bg-white p-4">
-          <p class="text-cg mb-2">{{$name}}</p>
-          <div class="d-flex justify-content-center">
-              <a class="btn btn-square btn-green rounded-circle mx-1" href="{{route('dettaglio', ['id' => $id])}}"><i class="fa fa-eye"></i></a>
-          </div>
-      </div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+  <div class="service-item  position-relative">
+    <div class="icon">
+      <img src="{{$icon}}" alt="">
+    </div>
+    <h3>{{$name}}</h3>
+    <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+    <a href="{{route('service')}}" class="readmore stretched-link">Leggi di più <i class="fa-solid fa-arrow-right-long"></i></a>
   </div>
 </div>
-
 @endif

@@ -3341,7 +3341,7 @@ fetch("./annunci.json").then(function (response) {
 
 function createCategoryElement(category) {
   var categoryElement = document.createElement("div");
-  categoryElement.classList.add("card-section");
+  categoryElement.classList.add("service-item");
   categoryElement.innerHTML = "\n    <div>\n    <a class=\"link-footer\" href=\"/servizi\">".concat(category, "</a\n    </div>\n    ");
   return categoryElement;
 }

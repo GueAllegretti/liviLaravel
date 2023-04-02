@@ -7,19 +7,21 @@
 <!-- Banner start-->
 <section id="hero" class="hero">
 
-  <div class="info d-flex align-items-center">
-    <div class="container">
-      <div class="row justify-content-center">
+  <div class="info mast-head d-flex align-items-center">
+    <div class="container vh-100">
+      <div class="row h-100 justify-content-center align-items-center">
         <div class="col-lg-6 text-center">
-          <h2 data-aos="fade-down">Welcome to <span>UpConstruction</span></h2>
+          <h2 data-aos="fade-down">Livi 
+          <br>
+          <span>Impianti</span></h2>
           <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
+          <a data-aos="fade-up" data-aos-delay="200" href="#services" class="btn-get-started">Scopri di più</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+  {{-- <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
     <div class="carousel-item active" style="background-image: url(/img/mast-head.jpg)"></div>
     <div class="carousel-item" style="background-image: url(/img/mast-head.jpg)"></div>
@@ -35,9 +37,9 @@
       <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
     </a>
 
-  </div>
+  </div> --}}
 
-</section><!-- End Hero Section -->
+</section>
 <!-- Banner end-->
 
 
@@ -74,195 +76,26 @@
   <div class="container" data-aos="fade-up">
 
     <div class="section-header">
-      <h2>Services</h2>
+      <h2>Servizi</h2>
       <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
     </div>
 
     <div class="row gy-4">
+      
+      @foreach($services as $service)
 
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="service-item  position-relative">
-          <div class="icon">
-            <i class="fa-solid fa-mountain-city"></i>
-          </div>
-          <h3>Nesciunt Mete</h3>
-          <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-          <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="service-item position-relative">
-          <div class="icon">
-            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-          </div>
-          <h3>Eosle Commodi</h3>
-          <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-          <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-item position-relative">
-          <div class="icon">
-            <i class="fa-solid fa-compass-drafting"></i>
-          </div>
-          <h3>Ledo Markt</h3>
-          <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-          <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-        <div class="service-item position-relative">
-          <div class="icon">
-            <i class="fa-solid fa-trowel-bricks"></i>
-          </div>
-          <h3>Asperiores Commodit</h3>
-          <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-          <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-        <div class="service-item position-relative">
-          <div class="icon">
-            <i class="fa-solid fa-helmet-safety"></i>
-          </div>
-          <h3>Velit Doloremque</h3>
-          <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-          <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-        <div class="service-item position-relative">
-          <div class="icon">
-            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-          </div>
-          <h3>Dolori Architecto</h3>
-          <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-          <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div><!-- End Service Item -->
+      <x-card
+        id="{{$service['id']}}"
+        name="{{$service['name']}}"
+        icon="{{$service['icon']}}"
+      />
+      @endforeach
 
     </div>
 
   </div>
 </section><!-- End Services Section -->
 <!-- Services Start -->
-
-    <!-- Certifications Start -->
-    <section id="constructions" class="constructions">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Constructions</h2>
-          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
-        </div>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(http://www.liviimpianti.it/images/lavoribt.png);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(http://www.liviimpianti.it/images/gps.png);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Possimus ut sed velit assumenda</h4>
-                    <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(http://www.liviimpianti.it/images/gpsdefender.png);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(http://www.liviimpianti.it/images/tuttonormel10.png);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(http://www.liviimpianti.it/images/tuttonormel11.png);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg" style="background-image: url(http://www.liviimpianti.it/images/myhome.png);"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Certifications Section -->
   
 
         <!-- ======= Our Projects Section ======= -->
@@ -278,11 +111,11 @@
     
                 <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
                   <div class="portfolio-content h-100">
-                    <img src="/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="">
                     <div class="portfolio-info">
                       <h4>Remodeling 1</h4>
                       <p>Lorem ipsum, dolor sit amet consectetur</p>
-                      <a href="/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://via.placeholder.com/600x400" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                       <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                     </div>
                   </div>
@@ -290,11 +123,11 @@
     
                 <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
                   <div class="portfolio-content h-100">
-                    <img src="/img/projects/construction-1.jpg" class="img-fluid" alt="">
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="">
                     <div class="portfolio-info">
                       <h4>Construction 1</h4>
                       <p>Lorem ipsum, dolor sit amet consectetur</p>
-                      <a href="/img/projects/construction-1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://via.placeholder.com/600x400" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                       <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                     </div>
                   </div>
@@ -302,11 +135,11 @@
     
                 <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
                   <div class="portfolio-content h-100">
-                    <img src="/img/projects/repairs-1.jpg" class="img-fluid" alt="">
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="">
                     <div class="portfolio-info">
                       <h4>Repairs 1</h4>
                       <p>Lorem ipsum, dolor sit amet consectetur</p>
-                      <a href="/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://via.placeholder.com/600x400" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                       <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                     </div>
                   </div>
@@ -314,11 +147,11 @@
     
                 <div class="col-lg-4 col-md-6 portfolio-item filter-design">
                   <div class="portfolio-content h-100">
-                    <img src="/img/projects/design-1.jpg" class="img-fluid" alt="">
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="">
                     <div class="portfolio-info">
                       <h4>Design 1</h4>
                       <p>Lorem ipsum, dolor sit amet consectetur</p>
-                      <a href="/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://via.placeholder.com/600x400" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                       <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                     </div>
                   </div>
@@ -326,11 +159,11 @@
     
                 <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
                   <div class="portfolio-content h-100">
-                    <img src="/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="">
                     <div class="portfolio-info">
                       <h4>Remodeling 2</h4>
                       <p>Lorem ipsum, dolor sit amet consectetur</p>
-                      <a href="/img/projects/remodeling-2.jpg" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://via.placeholder.com/600x400" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                       <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                     </div>
                   </div>
@@ -338,11 +171,11 @@
     
                 <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
                   <div class="portfolio-content h-100">
-                    <img src="/img/projects/construction-2.jpg" class="img-fluid" alt="">
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="">
                     <div class="portfolio-info">
                       <h4>Construction 2</h4>
                       <p>Lorem ipsum, dolor sit amet consectetur</p>
-                      <a href="/img/projects/construction-2.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                      <a href="https://via.placeholder.com/600x400" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                       <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                     </div>
                   </div>

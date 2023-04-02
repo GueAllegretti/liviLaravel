@@ -73,7 +73,7 @@ fetch("./annunci.json")
 
 function createCategoryElement(category) {
     let categoryElement = document.createElement("div")
-    categoryElement.classList.add("card-section")
+    categoryElement.classList.add("service-item  position-relative")
     categoryElement.innerHTML = `
     <div>
     <a class="link-footer" href="/servizi">${category}</a
