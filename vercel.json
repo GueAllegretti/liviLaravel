@@ -13,10 +13,6 @@
             "dest": "/api/index.php"
         }
     ],
-    "scripts": {
-        "vercel": [
-          "npm install && npm run prod"
-        ],
     "env": {
         "APP_NAME": "Laravel Vercel",
         "APP_ENV": "production",
