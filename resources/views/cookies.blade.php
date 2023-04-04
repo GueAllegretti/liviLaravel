@@ -2,15 +2,13 @@
 
 
     <x-slot name="title">Cookies Policy</x-slot>
-    <div class="container-fluid page-header py-5">
-        <div class="container py-5">
-            <h1 class="display-3 text-light mb-3 mt-5 animate__animated animate__slideInDown">Servizi</h1>
-            <nav aria-label="breadcrumb animate__animated animate__slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-light" href="/">Home</a></li>
-                    <li class="breadcrumb-item text-light active" aria-current="page">Cookies Policy</li>
-                </ol>
-            </nav>
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/img/breadcrumbs-bg.jpg');">
+        <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+          <h2>Cookies Policy</h2>
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li>Cookies Policy</li>
+          </ol>
         </div>
       </div>
 
