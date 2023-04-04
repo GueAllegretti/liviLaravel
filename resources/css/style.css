@@ -1,16 +1,3 @@
-/**
-* Template Name: UpConstruction
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Roboto", sans-serif;
@@ -182,7 +169,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #e20315;
+  background: var(--color-primary);
   color: #fff;
 }
 
@@ -1732,49 +1719,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# livi Section
 --------------------------------------------------------------*/
-.hero {
+.livi {
   overflow-x: hidden;
   padding: 0;
 }
-
-/* .hero .carousel {
-  width: 100%;
-  min-height: 100vh;
-  padding: 80px 0;
-  margin: 0;
-  position: relative;
-} */
-
-/* .hero .carousel-item {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: 1;
-  transition-duration: 0.4s;
-}*/
 
 .mast-head {
   background: url(/img/mast-head.jpg), rgba(0, 0, 0, 0.7);
 }
 
-/*.hero .info {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-
-@media (max-width: 768px) {
-  .hero .info {
-    padding: 0 50px;
-  }
-} */
-
-.hero .info h2 {
+.livi .info h2 {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
@@ -1783,7 +1739,7 @@ section {
   position: relative;
 }
 
-.hero .info h2:after {
+.livi .info h2:after {
   content: "";
   position: absolute;
   display: block;
@@ -1797,17 +1753,17 @@ section {
 }
 
 @media (max-width: 768px) {
-  .hero .info h2 {
+  .livi .info h2 {
     font-size: 36px;
   }
 }
 
-.hero .info p {
+.livi .info p {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
 
-.hero .info .btn-get-started {
+.livi .info .btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
@@ -1821,59 +1777,22 @@ section {
   border: 2px solid var(--color-primary);
 }
 
-.hero .info .btn-get-started:hover {
+.livi .info .btn-get-started:hover {
   background: var(--color-primary);
 }
 
-.hero .carousel-control-prev {
+.livi .carousel-control-prev {
   justify-content: start;
 }
 
 @media (min-width: 640px) {
-  .hero .carousel-control-prev {
+  .livi .carousel-control-prev {
     padding-left: 15px;
   }
 }
 
-.hero .carousel-control-next {
+.livi .carousel-control-next {
   justify-content: end;
-}
-
-@media (min-width: 640px) {
-  .hero .carousel-control-next {
-    padding-right: 15px;
-  }
-}
-
-.hero .carousel-control-next-icon,
-.hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 26px;
-  line-height: 0;
-  background: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.6);
-  border-radius: 50px;
-  width: 54px;
-  height: 54px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero .carousel-control-prev,
-.hero .carousel-control-next {
-  z-index: 3;
-  transition: 0.3s;
-}
-
-.hero .carousel-control-prev:focus,
-.hero .carousel-control-next:focus {
-  opacity: 0.5;
-}
-
-.hero .carousel-control-prev:hover,
-.hero .carousel-control-next:hover {
-  opacity: 0.9;
 }
 
 /*--------------------------------------------------------------

@@ -5,7 +5,7 @@
   <x-slot name="title">Livi Impianti</x-slot>
 
 <!-- Banner start-->
-<section id="hero" class="hero">
+<section id="livi" class="livi">
 
   <div class="info mast-head d-flex align-items-center">
     <div class="container vh-100">
@@ -142,4 +142,4 @@
   </div>
 </section>
 
-  </x-layout>
+</x-layout>
