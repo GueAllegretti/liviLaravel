@@ -7,14 +7,14 @@
         <div class="col-12">
           <div class="footer-info">
             <div class="text-center p-3">
-              <h6 class="fw-normal">Livi Impianti - P.IVA 000000000</h6>
-              <p class="fw-light">via numero, cap Pomarico MT</p> 
+              <h6 class="fw-light">Livi Impianti - P.IVA 000000000</h6>
+              <p class="fw-lighter">via numero, cap Pomarico MT</p> 
               <a href="{{route('cookies')}}" class="link-footer me-4 fw-lighter">Cookies Policy</a>
               <a href="mailto:info@cgimpiantielettrici.it?subject=Richiesta informazioni" class="link-footer fw-lighter">info@email.it</a>
             </div>
             </div>
           </div>
-        </div><!-- End footer info column-->
+        </div>
       </div>
     </div>
   </div>

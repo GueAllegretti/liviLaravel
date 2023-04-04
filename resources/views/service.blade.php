@@ -4,17 +4,17 @@
 <x-layout>
   <x-slot name="title">Servizi</x-slot>
 
-  <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/img/breadcrumbs-bg.jpg');">
+  <div class="breadcrumbs d-flex align-items-center">
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
       <h2>Services</h2>
       <ol>
-        <li><a href="/">Home</a></li>
+        <li><a href="{{route('index')}}">Home</a></li>
         <li>Services</li>
       </ol>
 
     </div>
-  </div><!-- End Breadcrumbs -->
+  </div>
 
   <!-- ======= Alt Services Section 2 ======= -->
   <section id="alt-services-2" class="alt-services section-bg">

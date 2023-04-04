@@ -41,6 +41,7 @@
         id="{{$service['id']}}"
         name="{{$service['name']}}"
         icon="{{$service['icon']}}"
+        description="{{$service['description']}}"
       />
       @endforeach
 

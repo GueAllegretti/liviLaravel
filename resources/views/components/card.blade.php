@@ -60,7 +60,7 @@
       <img src="{{$icon}}" alt="">
     </div>
     <h3>{{$name}}</h3>
-    <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+    <p>{{$description}}</p>
     <a href="{{route('service')}}" class="readmore stretched-link">Leggi di più <i class="fa-solid fa-arrow-right-long"></i></a>
   </div>
 </div>
