@@ -7,7 +7,7 @@
     <meta name="description" content="@yield('meta_description','Realizzazione di impianti domotici di ogni tipo, in ambienti pubblici e privati. Realizzazione di impianti di sicurezza quali antincendio, antintrusione, videosorveglianza, automazione')">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<link rel="stylesheet" href="{{asset('css/app.css')}}">
+<link rel="stylesheet" href="{{asset('CSS/app.css')}}">
 
 <title>{{isset($title) ? $title:'Livi Impianti'}}</title>
 
@@ -32,7 +32,7 @@
      <x-footer/>
 
     <!-- JavaScript -->
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('JS/app.js')}}"></script>
 
   </body>
   </html>
