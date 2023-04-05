@@ -6,8 +6,8 @@ class PublicController extends Controller
 {
     public function index(){
         $services = [
-            ['id' => 1, 'name' => 'Impianti Domotici', 'icon' => '/img/icon/house-signal-solid.svg', 'description' => "Realizziamo impianti domotici, per introdurre nelle nostre case il concetto di casa intelligente al fine di poter gestire e controllare la nostra casa da qualsiasi terminale."],
-            ['id' => 2, 'name' => 'Impianti Fotovoltaici e Eolici', 'icon' => '/img/icon/sun-solid.svg', 'description' => "Realizziamo impianti alimentati da fonti rinnovabili quali fotovoltaici, eolici o minieolico al fine di produrre energia elettrica evitando immissione in atmosfera di sostanze inquinanti."],
+            ['id' => 1, 'name' => 'Impianti Domotici', 'icon' => '/img/icon/house-signal-solid.svg', 'description' => "Realizziamo impianti domotici, al fine di poter gestire e controllare la nostra casa in maniera intelligente."],
+            ['id' => 2, 'name' => 'Impianti Fotovoltaici e Eolici', 'icon' => '/img/icon/sun-solid.svg', 'description' => "Realizziamo impianti alimentati da fonti rinnovabili per produrre energia elettrica evitando immissione in atmosfera di sostanze inquinanti."],
             ['id' => 3, 'name' => 'Impianti industriali', 'icon' => '/img/icon/house-lock-solid.svg', 'description' => "Progettiamo e realizziamo impianti e automazioni industriali all’interno di nuove costruzioni e messa a norma di edifici esistenti."]
         ];
         $works = [

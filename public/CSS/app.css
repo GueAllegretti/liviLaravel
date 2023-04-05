@@ -13229,19 +13229,6 @@ section {
   position: relative;
 }
 
-.services .service-item .icon:before {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: #f0f1f2;
-  border-radius: 50px;
-  z-index: 1;
-  top: 10px;
-  right: -15px;
-  transition: 0.3s;
-}
-
 .services .service-item h3 {
   color: var(--color-default);
   font-weight: 700;
@@ -13257,17 +13244,12 @@ section {
 .services .service-item p {
   line-height: 24px;
   font-size: 14px;
-  margin-bottom: 0;
 }
 
-.services .service-item .readmore {
+.readmore {
   margin-top: 15px;
   display: inline-block;
   color: var(--color-primary);
-}
-
-.services .service-item:hover .icon:before {
-  background: var(--color-primary);
 }
 
 .services .service-item:hover h3 {
