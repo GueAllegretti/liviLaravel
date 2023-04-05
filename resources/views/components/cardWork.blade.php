@@ -84,19 +84,13 @@
 
 @else   
 
-<div class="col-lg-4 col-md-6 portfolio-item first wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-  <div class="portfolio-inner">
-      <img class="img-fluid w-100" style="height:300px" src="{{$img}}" alt="{{$alt}}">
-      <div class="text-center p-4">
-          <p class="text-cg mb-2">{{$category}}</p>
-          <p class="card-text fw-lighter">{{$where}}</p>
-      </div>
-      <div class="portfolio-text text-center bg-white p-4">
-          <p class="fw-light mb-2">Scopri di più</p>
-          <div class="d-flex justify-content-center">
-              <a class="btn btn-square btn-green rounded-circle mx-1" href="{{route('progetto', ['id' => $id])}}"><i class="fa fa-eye"></i></a>
-          </div>
-      </div>
+<div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+  <div class="portfolio-content h-100">
+    <img src={{$img}} class="img-fluid" alt={{$alt}}>
+    <div class="portfolio-info">
+      <p>{{$title}}</p>
+      <a href={{$img}} target="_blank" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link text-center"><i class="bi bi-zoom-in"></i></a>
+    </div>
   </div>
 </div>
 

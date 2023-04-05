@@ -7,185 +7,194 @@ class PublicController extends Controller
     public function index(){
         $services = [
             ['id' => 1, 'name' => 'Impianti Domotici', 'icon' => '/img/icon/house-signal-solid.svg', 'description' => "Realizziamo impianti domotici, per introdurre nelle nostre case il concetto di casa intelligente al fine di poter gestire e controllare la nostra casa da qualsiasi terminale."],
-            ['id' => 2, 'name' => 'Impianti Fotovoltaici e Eolici', 'icon' => '/img/icon/sun-solid.svg', 'description' => "Realizzazione di impianti alimentati da fonti rinnovabili quali fotovoltaici, eolici o minieolico al fine di produrre energia elettrica evitando l'immissione in atmosfera di sostanze inquinanti."],
+            ['id' => 2, 'name' => 'Impianti Fotovoltaici e Eolici', 'icon' => '/img/icon/sun-solid.svg', 'description' => "Realizziamo impianti alimentati da fonti rinnovabili quali fotovoltaici, eolici o minieolico al fine di produrre energia elettrica evitando immissione in atmosfera di sostanze inquinanti."],
             ['id' => 3, 'name' => 'Impianti industriali', 'icon' => '/img/icon/house-lock-solid.svg', 'description' => "Progettiamo e realizziamo impianti e automazioni industriali all’interno di nuove costruzioni e messa a norma di edifici esistenti."]
         ];
-        return view('index', ['services' => $services]);
-    }
-
-    public function work() {
         $works = [
-            ['id' => 1, 'category' => 'Antincendio', 'where' => 'Istituto Istruzione Superiore A. Turi', 'alt' => 'sistema di antincendio', 'img' => 'img/antincendio/antincendio.jpg'],
-            ['id' => 2, 'category' => 'Illuminazione e Domotica', 'where' => 'Negozio di telefonia', 'alt' => 'illuminazione interna', 'img' => 'img/illuminazione/wind.jpg'],
-            ['id' => 3, 'category' => 'Illuminazione e Domotica', 'where' => 'Appartamento', 'alt' => 'illuminazione interna', 'img' => '/img/illuminazione/appar.jpg'],
-            ['id' => 4, 'category' => 'Illuminazione e Domotica', 'where' => 'Ufficio', 'alt' => 'illuminazione interna', 'img' => 'img/illuminazione/commerc.jpg'],
-            ['id' => 5, 'category' => 'Videosorveglianza e Antintrusione', 'alt' => 'Videosorveglianza', 'where' => "Chiesa di Santa Maria De Idris", 'img' => 'img/tvcc/lavoro-idris.jpg'],
-            ['id' => 6, 'category' => 'Videosorveglianza e Antintrusione', 'alt' => 'Videosorveglianza', 'where' => 'Chiesa di Santa Lucia alle Malve', 'img' => 'img/tvcc/lavoro-malve.jpg'],
-            ['id' => 7, 'category' => 'Impianti fotovoltaici', 'where' => 'Residenziale', 'alt' => 'fotovoltaico', 'img' => 'img/fotovoltaico/lavoro-fotov.jpg'],
-            ['id' => 8, 'category' => 'Impianti elettrici', 'where' => 'Attività commerciale', 'alt' => 'illuminazione interna', 'img' => 'img/illuminazione/lavoro-illuminazione4.jpg'],
-            ['id' => 9, 'category' => 'Impianti elettrici', 'where' => 'Albergo Sassi di Matera', 'alt' => 'illuminazione interna', 'img' => 'img/illuminazione/hotel2.jpg'],
-            ['id' => 10, 'category' => 'Impianti elettrici', 'where' => 'Albergo Sassi di Matera', 'alt' => 'illuminazione interna', 'img' => 'img/elettrico/albergo.jpg'],
-            ['id' => 11, 'category' => 'Illuminazione e Domotica', 'where' => 'Appartamento', 'alt' => 'illuminazione interna e domotica', 'img' => 'img/illuminazione/casa.jpg'],
-            ['id' => 12, 'category' => 'Impianti elettrici', 'where' => 'Appartamento', 'alt' => 'illuminazione interna', 'img' => 'img/elettrico/cavi.jpg'],
+            ['id' => 1, 'title' => 'da definire', 'alt' => 'sistema di antincendio', 'img' => 'img/projects/progetto1.jpeg'],
+            ['id' => 2, 'title' => 'da definire', 'alt' => 'illuminazione interna', 'img' => 'img/projects/progetto6.jpeg'],
+            ['id' => 3, 'title' => 'da definire', 'alt' => 'illuminazione interna', 'img' => '/img/projects/progetto1.jpeg'],
+            ['id' => 4, 'title' => 'da definire', 'alt' => 'illuminazione interna', 'img' => 'img/projects/progetto4.jpeg'],
+            ['id' => 5, 'alt' => 'Videosorveglianza', 'title' => "da definire", 'img' => 'img/projects/progetto5.jpeg'],
+            ['id' => 6, 'alt' => 'Videosorveglianza', 'title' => 'da definire', 'img' => 'img/projects/progetto6.jpeg'],
         ];
-        return view('work', ['works' => $works]);
+
+        return view('index', ['services' => $services], ['works' => $works]);
     }
 
+    // public function work() {
+    //     $works = [
+    //         ['id' => 1, 'category' => 'Antincendio', 'where' => 'Istituto Istruzione Superiore A. Turi', 'alt' => 'sistema di antincendio', 'img' => 'img/antincendio/antincendio.jpg'],
+    //         ['id' => 2, 'category' => 'Illuminazione e Domotica', 'where' => 'Negozio di telefonia', 'alt' => 'illuminazione interna', 'img' => 'img/illuminazione/wind.jpg'],
+    //         ['id' => 3, 'category' => 'Illuminazione e Domotica', 'where' => 'Appartamento', 'alt' => 'illuminazione interna', 'img' => '/img/illuminazione/appar.jpg'],
+    //         ['id' => 4, 'category' => 'Illuminazione e Domotica', 'where' => 'Ufficio', 'alt' => 'illuminazione interna', 'img' => 'img/illuminazione/commerc.jpg'],
+    //         ['id' => 5, 'category' => 'Videosorveglianza e Antintrusione', 'alt' => 'Videosorveglianza', 'where' => "Chiesa di Santa Maria De Idris", 'img' => 'img/tvcc/lavoro-idris.jpg'],
+    //         ['id' => 6, 'category' => 'Videosorveglianza e Antintrusione', 'alt' => 'Videosorveglianza', 'where' => 'Chiesa di Santa Lucia alle Malve', 'img' => 'img/tvcc/lavoro-malve.jpg'],
+    //         ['id' => 7, 'category' => 'Impianti fotovoltaici', 'where' => 'Residenziale', 'alt' => 'fotovoltaico', 'img' => 'img/fotovoltaico/lavoro-fotov.jpg'],
+    //         ['id' => 8, 'category' => 'Impianti elettrici', 'where' => 'Attività commerciale', 'alt' => 'illuminazione interna', 'img' => 'img/illuminazione/lavoro-illuminazione4.jpg'],
+    //         ['id' => 9, 'category' => 'Impianti elettrici', 'where' => 'Albergo Sassi di Matera', 'alt' => 'illuminazione interna', 'img' => 'img/illuminazione/hotel2.jpg'],
+    //         ['id' => 10, 'category' => 'Impianti elettrici', 'where' => 'Albergo Sassi di Matera', 'alt' => 'illuminazione interna', 'img' => 'img/elettrico/albergo.jpg'],
+    //         ['id' => 11, 'category' => 'Illuminazione e Domotica', 'where' => 'Appartamento', 'alt' => 'illuminazione interna e domotica', 'img' => 'img/illuminazione/casa.jpg'],
+    //         ['id' => 12, 'category' => 'Impianti elettrici', 'where' => 'Appartamento', 'alt' => 'illuminazione interna', 'img' => 'img/elettrico/cavi.jpg'],
+    //     ];
+    //     return view('work', ['works' => $works]);
+    // }
 
-    public function workDetail($id) {
-        $works = [
-            [
-                'id' => 1, 
-                'category' => 'Antincendio', 
-                'where' => 'Istituto Istruzione Superiore A. Turi',
-                'description' => 'Impianto di rivelazione fumi', 
-                'description2'=>'Manutenzione impianti di sicurezza', 
-                'alt' => 'centrale antincendio',
-                'img' => '/img/antincendio/antincendio.jpg',
-                'img1' => '/img/antincendio/antincendio1.jpg',
-                'img2' => '/img/antincendio/antincendio2.jpg',
-                'img3' => '/img/antincendio/antincendio3.jpg'
-            ],
-            [
-                'id' => 2, 
-                'category' => 'Illuminazione e Domotica', 
-                'where' => 'Negozio di telefonia',
-                'description' => 'Impianto elettrico', 
-                'description2' => 'Cablaggio strutturato',  
-                'alt' => 'insegna luminosa',
-                'img' => '/img/illuminazione/wind.jpg',
-                'img1' => '/img/illuminazione/wind1.jpg',
-                'img2' => '/img/illuminazione/wind2.jpg',
-                'img3' => '/img/illuminazione/wind3.jpg'
-            ],
-            [
-                'id' => 3, 
-                'category' => 'Illuminazione e Domotica',  
-                'where' => 'Appartamento',
-                'description' => 'Impianto elettrico', 
-                'description2'=>'Infilaggio cavi',  
-                'alt' => 'illuminazione interna',
-                'img' => '/img/illuminazione/appar.jpg',
-                'img1' => '/img/illuminazione/appart2.jpg',
-                'img2' => '/img/illuminazione/appart3.jpg',
-                'img3' => '/img/illuminazione/appar1.jpg',
-            ],
-            [
-                'id' => 4, 
-                'category' => 'Illuminazione e Domotica', 
-                'where' => 'Ufficio',
-                'description' => 'Impianto elettrico', 
-                'description2'=> 'Cablaggio strutturato', 
-                'alt' => 'illuminazione interna',
-                'img' => '/img/illuminazione/commerc.jpg',
-                'img1' => '/img/illuminazione/commerc1.jpg',
-                'img2' => '/img/illuminazione/commerc2.jpg',
-                'img3' => '/img/illuminazione/commerc.jpg'
-            ],
-            [
-                'id' => 5, 
-                'category' => 'Videosorveglianza e Antintrusione', 
-                'where' => "Chiesa di Santa Maria De Idris",
-                'description' => 'Impianto di videosorveglianza', 
-                'description2'=>'Infilaggio cavi', 
-                'alt' => 'telecamere di sicurezza',
-                'img' => '/img/tvcc/lavoro-idris.jpg',
-                'img1' => '/img/tvcc/lavoro-idris1.jpg',
-                'img2' => '/img/tvcc/lavoro-idris.jpg',
-                'img3' => '/img/tvcc/lavoro-idris1.jpg'
-            ],
-            [
-                'id' => 6, 
-                'category' => 'Videosorveglianza e Antintrusione', 
-                'where' => 'Chiesa di Santa Lucia alle Malve',
-                'description' => 'Impianti di videosorveglianza', 
-                'description2'=>'Installazione e manutenzione', 
-                'alt' => 'telecamere di sicurezza',
-                'img' => '/img/tvcc/lavoro-malve.jpg',
-                'img1' => '/img/tvcc/lavoro-malve1.jpg',
-                'img2' => '/img/tvcc/lavoro-malve2.jpg',
-                'img3' => '/img/tvcc/lavoro-malve.jpg'
-            ],
-            [
-                'id' => 7, 
-                'category' => 'Impianti fotovoltaici', 
-                'where' => 'Residenziale',
-                'description' => 'Installazione pannelli', 
-                'description2'=>'Callaudo', 
-                'alt' => 'pannelli fotovoltaici',
-                'img' => '/img/fotovoltaico/lavoro-fotov.jpg',
-                'img1' => '/img/fotovoltaico/lavoro-fotov1.jpg',
-                'img2' => '/img/fotovoltaico/lavoro-fotov2.jpg',
-                'img3' => '/img/logo.png'
-            ],
-            [
-                'id' => 8, 
-                'category' => 'Illuminazione e Domotica',  
-                'where' => 'Attività commerciale',
-                'description' => 'Installazione insegna luminosa', 
-                'description2'=>'Infilaggio cavi',  
-                'alt' => 'insegna luminosa',
-                'img' => '/img/illuminazione/lavoro-illuminazione4.jpg',
-                'img1' => '/img/about-2.jpg',
-                'img2' => '/img/logo.png',
-                'img3' => '/img/logo.png',
-            ],
-            [
-                'id' => 9, 
-                'category' => 'Illuminazione e Domotica',  
-                'where' => 'Albergo Sassi di Matera',
-                'description' => 'Impianto elettrico', 
-                'description2'=>'Infilaggio cavi',  
-                'alt' => 'illuminazione interna',
-                'img' => '/img/illuminazione/hotel2.jpg',
-                'img1' => '/img/illuminazione/hotel1.jpg',
-                'img2' => '/img/illuminazione/hotel.jpg',
-                'img3' => '/img/logo.png',
-            ],
-            [
-                'id' => 10, 
-                'category' => 'Illuminazione e Domotica',  
-                'where' => 'Albergo Sassi di Matera',
-                'description' => 'Impianto elettrico', 
-                'description2'=>'Adeguamento sistema di sicurezza',  
-                'alt' => 'illuminazione interna',
-                'img' => '/img/elettrico/albergo.jpg',
-                'img1' => '/img/elettrico/albergo1.jpg',
-                'img2' => '/img/elettrico/albergo2.jpg',
-                'img3' => '/img/logo.png',
-            ],
-            [
-                'id' => 11, 
-                'category' => 'Illuminazione e Domotica',  
-                'where' => 'Appartamento',
-                'description' => 'Impianto elettrico', 
-                'description2'=>'impianto domotico',  
-                'alt' => 'illuminazione interna',
-                'img' => '/img/illuminazione/casa1.jpg',
-                'img1' => '/img/illuminazione/casa.jpg',
-                'img2' => '/img/illuminazione/casa3.jpg',
-                'img3' => '/img/logo.png',
-            ],
-            [
-                'id' => 12, 
-                'category' => 'Impianti Elettrici',  
-                'where' => 'Appartamento',
-                'description' => 'Impianto elettrico', 
-                'description2'=>'Infilaggio cavi',  
-                'alt' => 'illuminazione interna',
-                'img' => '/img/elettrico/cavi.jpg',
-                'img1' => '/img/elettrico/cavi1.jpg',
-                'img2' => '/img/logo.png',
-                'img3' => '/img/logo.png',
-            ],
+
+    // public function workDetail($id) {
+    //     $works = [
+    //         [
+    //             'id' => 1, 
+    //             'category' => 'Antincendio', 
+    //             'where' => 'Istituto Istruzione Superiore A. Turi',
+    //             'description' => 'Impianto di rivelazione fumi', 
+    //             'description2'=>'Manutenzione impianti di sicurezza', 
+    //             'alt' => 'centrale antincendio',
+    //             'img' => '/img/antincendio/antincendio.jpg',
+    //             'img1' => '/img/antincendio/antincendio1.jpg',
+    //             'img2' => '/img/antincendio/antincendio2.jpg',
+    //             'img3' => '/img/antincendio/antincendio3.jpg'
+    //         ],
+    //         [
+    //             'id' => 2, 
+    //             'category' => 'Illuminazione e Domotica', 
+    //             'where' => 'Negozio di telefonia',
+    //             'description' => 'Impianto elettrico', 
+    //             'description2' => 'Cablaggio strutturato',  
+    //             'alt' => 'insegna luminosa',
+    //             'img' => '/img/illuminazione/wind.jpg',
+    //             'img1' => '/img/illuminazione/wind1.jpg',
+    //             'img2' => '/img/illuminazione/wind2.jpg',
+    //             'img3' => '/img/illuminazione/wind3.jpg'
+    //         ],
+    //         [
+    //             'id' => 3, 
+    //             'category' => 'Illuminazione e Domotica',  
+    //             'where' => 'Appartamento',
+    //             'description' => 'Impianto elettrico', 
+    //             'description2'=>'Infilaggio cavi',  
+    //             'alt' => 'illuminazione interna',
+    //             'img' => '/img/illuminazione/appar.jpg',
+    //             'img1' => '/img/illuminazione/appart2.jpg',
+    //             'img2' => '/img/illuminazione/appart3.jpg',
+    //             'img3' => '/img/illuminazione/appar1.jpg',
+    //         ],
+    //         [
+    //             'id' => 4, 
+    //             'category' => 'Illuminazione e Domotica', 
+    //             'where' => 'Ufficio',
+    //             'description' => 'Impianto elettrico', 
+    //             'description2'=> 'Cablaggio strutturato', 
+    //             'alt' => 'illuminazione interna',
+    //             'img' => '/img/illuminazione/commerc.jpg',
+    //             'img1' => '/img/illuminazione/commerc1.jpg',
+    //             'img2' => '/img/illuminazione/commerc2.jpg',
+    //             'img3' => '/img/illuminazione/commerc.jpg'
+    //         ],
+    //         [
+    //             'id' => 5, 
+    //             'category' => 'Videosorveglianza e Antintrusione', 
+    //             'where' => "Chiesa di Santa Maria De Idris",
+    //             'description' => 'Impianto di videosorveglianza', 
+    //             'description2'=>'Infilaggio cavi', 
+    //             'alt' => 'telecamere di sicurezza',
+    //             'img' => '/img/tvcc/lavoro-idris.jpg',
+    //             'img1' => '/img/tvcc/lavoro-idris1.jpg',
+    //             'img2' => '/img/tvcc/lavoro-idris.jpg',
+    //             'img3' => '/img/tvcc/lavoro-idris1.jpg'
+    //         ],
+    //         [
+    //             'id' => 6, 
+    //             'category' => 'Videosorveglianza e Antintrusione', 
+    //             'where' => 'Chiesa di Santa Lucia alle Malve',
+    //             'description' => 'Impianti di videosorveglianza', 
+    //             'description2'=>'Installazione e manutenzione', 
+    //             'alt' => 'telecamere di sicurezza',
+    //             'img' => '/img/tvcc/lavoro-malve.jpg',
+    //             'img1' => '/img/tvcc/lavoro-malve1.jpg',
+    //             'img2' => '/img/tvcc/lavoro-malve2.jpg',
+    //             'img3' => '/img/tvcc/lavoro-malve.jpg'
+    //         ],
+    //         [
+    //             'id' => 7, 
+    //             'category' => 'Impianti fotovoltaici', 
+    //             'where' => 'Residenziale',
+    //             'description' => 'Installazione pannelli', 
+    //             'description2'=>'Callaudo', 
+    //             'alt' => 'pannelli fotovoltaici',
+    //             'img' => '/img/fotovoltaico/lavoro-fotov.jpg',
+    //             'img1' => '/img/fotovoltaico/lavoro-fotov1.jpg',
+    //             'img2' => '/img/fotovoltaico/lavoro-fotov2.jpg',
+    //             'img3' => '/img/logo.png'
+    //         ],
+    //         [
+    //             'id' => 8, 
+    //             'category' => 'Illuminazione e Domotica',  
+    //             'where' => 'Attività commerciale',
+    //             'description' => 'Installazione insegna luminosa', 
+    //             'description2'=>'Infilaggio cavi',  
+    //             'alt' => 'insegna luminosa',
+    //             'img' => '/img/illuminazione/lavoro-illuminazione4.jpg',
+    //             'img1' => '/img/about-2.jpg',
+    //             'img2' => '/img/logo.png',
+    //             'img3' => '/img/logo.png',
+    //         ],
+    //         [
+    //             'id' => 9, 
+    //             'category' => 'Illuminazione e Domotica',  
+    //             'where' => 'Albergo Sassi di Matera',
+    //             'description' => 'Impianto elettrico', 
+    //             'description2'=>'Infilaggio cavi',  
+    //             'alt' => 'illuminazione interna',
+    //             'img' => '/img/illuminazione/hotel2.jpg',
+    //             'img1' => '/img/illuminazione/hotel1.jpg',
+    //             'img2' => '/img/illuminazione/hotel.jpg',
+    //             'img3' => '/img/logo.png',
+    //         ],
+    //         [
+    //             'id' => 10, 
+    //             'category' => 'Illuminazione e Domotica',  
+    //             'where' => 'Albergo Sassi di Matera',
+    //             'description' => 'Impianto elettrico', 
+    //             'description2'=>'Adeguamento sistema di sicurezza',  
+    //             'alt' => 'illuminazione interna',
+    //             'img' => '/img/elettrico/albergo.jpg',
+    //             'img1' => '/img/elettrico/albergo1.jpg',
+    //             'img2' => '/img/elettrico/albergo2.jpg',
+    //             'img3' => '/img/logo.png',
+    //         ],
+    //         [
+    //             'id' => 11, 
+    //             'category' => 'Illuminazione e Domotica',  
+    //             'where' => 'Appartamento',
+    //             'description' => 'Impianto elettrico', 
+    //             'description2'=>'impianto domotico',  
+    //             'alt' => 'illuminazione interna',
+    //             'img' => '/img/illuminazione/casa1.jpg',
+    //             'img1' => '/img/illuminazione/casa.jpg',
+    //             'img2' => '/img/illuminazione/casa3.jpg',
+    //             'img3' => '/img/logo.png',
+    //         ],
+    //         [
+    //             'id' => 12, 
+    //             'category' => 'Impianti Elettrici',  
+    //             'where' => 'Appartamento',
+    //             'description' => 'Impianto elettrico', 
+    //             'description2'=>'Infilaggio cavi',  
+    //             'alt' => 'illuminazione interna',
+    //             'img' => '/img/elettrico/cavi.jpg',
+    //             'img1' => '/img/elettrico/cavi1.jpg',
+    //             'img2' => '/img/logo.png',
+    //             'img3' => '/img/logo.png',
+    //         ],
             
-        ];
-        foreach($works as $work){
-            if($id == $work['id']){
-                return view('workDetail', ['work' => $work]);
-            }
-        }
-    }
+    //     ];
+    //     foreach($works as $work){
+    //         if($id == $work['id']){
+    //             return view('workDetail', ['work' => $work]);
+    //         }
+    //     }
+    // }
 
     public function about() {
         return view ('about');

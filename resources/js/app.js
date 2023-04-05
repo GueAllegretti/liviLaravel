@@ -1,4 +1,3 @@
 require('bootstrap');
-window.AOS = require('AOS');
+window.AOS = require('aos');
 AOS.init();
-require('./script');
