@@ -5,26 +5,14 @@
     },
     "routes": [ 
         { 
-            "src": "/build/(.*)", 
-            "dest": "/public/build/" 
-        }, 
-        { 
-            "src": "/resources/(.*)", 
-            "dest": "/public/resources/" 
-        }, 
-        { "src": "/favicon/(.*)", 
-        "dest": "/public/favicon/" 
-        }, 
-        { 
             "src": "/(.*)", 
             "dest": "/api/index.php" 
         } 
     ],
     "env": {
-        "APP_NAME": "Laravel Vercel",
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://laravel-vercel.vercel.app",
+        "APP_URL": "https://livi-laravel-7bfc-git-develop-gueallegretti.vercel.app/",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -34,8 +22,6 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
-        "VIEW_COMPILED_PATH": "/tmp/views",
-        "SSR_TEMP_PATH": "/tmp/ssr",
-        "NODE_PATH": "node"
+        "VIEW_COMPILED_PATH": "/tmp"
     }
 }
