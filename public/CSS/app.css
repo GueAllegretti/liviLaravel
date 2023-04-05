@@ -12996,38 +12996,6 @@ section {
   content: "/";
 }
 
-/*--------------------------------------------------------------
-# Scroll top button
---------------------------------------------------------------*/
-.scroll-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 99999;
-  background: var(--color-primary);
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-}
-
-.scroll-top i {
-  font-size: 24px;
-  color: var(--color-secondary);
-  line-height: 0;
-}
-
-.scroll-top:hover {
-  background: var(--color-primary);
-  color: var(--color-standard);
-}
-
-.scroll-top.active {
-  visibility: visible;
-  opacity: 1;
-}
-
 /* NAV */
 .logo img {
   max-height: 40px;
@@ -13064,10 +13032,9 @@ section {
   width: 100%;
 } 
 
-  .navbar a:hover,
-  .navbar li:hover>a {
-    color: var(--color-standard);
-  }
+.navbar a:hover, .navbar li:hover>a {
+  color: var(--color-standard);
+}
 
 /*--------------------------------------------------------------
 # Get Started Section
@@ -14276,9 +14243,7 @@ section {
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# livi Section
---------------------------------------------------------------*/
+/* BANNER */
 .livi {
   overflow-x: hidden;
   padding: 0;
@@ -14290,7 +14255,7 @@ section {
   background-repeat: no-repeat;
 }
 
-.livi .info h2 {
+.masthead h2 {
   color: var(--color-standard);
   margin-bottom: 30px;
   padding-bottom: 30px;
@@ -14299,7 +14264,7 @@ section {
   position: relative;
 }
 
-.livi .info h2:after {
+.masthead h2:after {
   content: "";
   position: absolute;
   display: block;
@@ -14318,12 +14283,12 @@ section {
   }
 } */
 
-.livi .info p {
+.masthead p {
   color: var(--color-standard);
   font-size: 26px;
 }
 
-.livi .info .btn-get-started {
+.btn-masthead {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
@@ -14337,22 +14302,9 @@ section {
   border: 2px solid var(--color-primary);
 }
 
-.livi .info .btn-get-started:hover {
+.btn-masthead:hover {
   background: var(--color-primary);
-}
-
-.livi .carousel-control-prev {
-  justify-content: start;
-}
-
-@media (min-width: 640px) {
-  .livi .carousel-control-prev {
-    padding-left: 15px;
-  }
-}
-
-.livi .carousel-control-next {
-  justify-content: end;
+  color: var(--color-standard);
 }
 
 /*--------------------------------------------------------------

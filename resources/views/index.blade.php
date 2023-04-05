@@ -7,7 +7,7 @@
 <!-- Banner start-->
 <section id="livi" class="livi">
 
-  <div class="info masthead d-flex align-items-center">
+  <div class="masthead d-flex align-items-center">
     <div class="container vh-100">
       <div class="row h-100 justify-content-center align-items-center">
         <div class="col-lg-6 text-center">
@@ -15,7 +15,7 @@
           <br>
           <span>Impianti</span></h2>
           <p data-aos="fade-up">Azienda giovane e dinamica, mettiamo a completa disposizione tutte le nostre conoscenze nell’ambito dell’impiantistica elettrica al fine di poter realizzare tutte le vostre esigenze. </p>
-          <a data-aos="fade-up" data-aos-delay="200" href="#services" class="btn-get-started">Scopri di più</a>
+          <a data-aos="fade-up" data-aos-delay="200" href="#services" class="btn-masthead">Scopri di più</a>
         </div>
       </div>
     </div>
@@ -29,7 +29,10 @@
 
     <div class="section-header">
       <h2>Servizi</h2>
-      <p>Progettazione, costruzione e manutenzione di impianti elettrici civili ed industriali, domotici, fotovoltaici ed eolici. Realizzazione di impianti a fibre ottiche, impianti antintrusione e videosorveglianza. Progettazione e costruzioni di reti LAN.
+      <p>
+        Progettazione, costruzione e manutenzione di impianti elettrici civili ed industriali, domotici, fotovoltaici ed eolici.
+        <br>
+        Realizzazione di impianti a fibre ottiche, impianti antintrusione e videosorveglianza. Progettazione e costruzioni di reti LAN.
       </p>
     </div>
 
