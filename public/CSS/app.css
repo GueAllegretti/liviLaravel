@@ -13208,28 +13208,26 @@ section {
   margin: 0;
 }
 
-/*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
-.services .service-item {
+/* SERVICES */
+.service-livi {
   padding: 40px;
   background: var(--color-standard);
   height: 100%;
 }
 
-.services .service-item .icon {
+.service-livi .icon {
   width: 50px;
   height: 50px;
   position: relative;
   margin-bottom: 50px;
 }
 
-.services .service-item .icon img {
+.service-livi .icon img {
   z-index: 2;
   position: relative;
 }
 
-.services .service-item h3 {
+.service-livi h3 {
   color: var(--color-default);
   font-weight: 700;
   margin: 0 0 20px 0;
@@ -13241,9 +13239,10 @@ section {
   transition: 0.3s;
 }
 
-.services .service-item p {
+.service-livi p {
   line-height: 24px;
   font-size: 14px;
+  margin-bottom: 0;
 }
 
 .readmore {
@@ -13252,7 +13251,7 @@ section {
   color: var(--color-primary);
 }
 
-.services .service-item:hover h3 {
+.service-livi:hover h3 {
   border-color: var(--color-primary);
 }
 
