@@ -7,7 +7,7 @@
 <!-- Banner start-->
 <section id="livi" class="livi">
 
-  <div class="info mast-head d-flex align-items-center">
+  <div class="info masthead d-flex align-items-center">
     <div class="container vh-100">
       <div class="row h-100 justify-content-center align-items-center">
         <div class="col-lg-6 text-center">
