@@ -4,39 +4,38 @@
     <div class="breadcrumbs d-flex align-items-center">
         <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
   
-          <h2>About</h2>
+          <h2>L'azienda</h2>
           <ol>
             <li><a href="{{route('index')}}">Home</a></li>
-            <li>About</li>
+            <li>Chi Siamo</li>
           </ol>
   
         </div>
       </div>
   
-      <!-- ======= About Section ======= -->
       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
   
           <div class="row position-relative">
   
-            <div class="col-lg-7 about-img" style="background-image: url(https://via.placeholder.com/700x600);"></div>
+            <div class="col-lg-7 about-img" style="background-image: url(/img/azienda.jpeg);"></div>
   
             <div class="col-lg-7">
-              <h2>Consequatur eius et magnam</h2>
+              <h2></h2>
               <div class="our-story">
-                <h4>Est 1988</h4>
-                <h3>Our Story</h3>
-                <p>Inventore aliquam beatae at et id alias. Ipsa dolores amet consequuntur minima quia maxime autem. Quidem id sed ratione. Tenetur provident autem in reiciendis rerum at dolor. Aliquam consectetur laudantium temporibus dicta minus dolor.</p>
+                <p>La LIVI IMPIANTI, azienda giovane e dinamica, è a vostra completa disposizione per mettere al vostro servizio tutte le proprie conoscenze nell’ambito dell’impiantistica elettrica al fine di poter realizzare tutte le vostre esigenze. Nello specifico ci occupiamo di:
+                  </p>
                 <ul>
-                  <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commo</span></li>
-                  <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in</span></li>
-                  <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-                </ul>
-                <p>Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non nesciunt suscipit repellendus porro in quo eveniet. Molestias in maxime doloremque.</p>
-  
+                  <li><i class="bi bi-check-circle"></i> <span>Progettazione, costruzione e manutenzione impianti elettrici civili ed industriali;</span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>Progettazione, costruzione e manutenzione di impianti elettrici domotici;</span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>Progettazione, costruzione e manutenzione di impianti fotovoltaici ed eolici;</span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>Realizzazione impianti a fibre ottiche;</span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>Progettazione, costruzione e manutenzione di impianti antintrusione e videosorveglianza;</span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>Progettazione e costruzioni di reti LAN;</span></li>
+                </ul>  
                 <div class="watch-video d-flex align-items-center position-relative">
                   <i class="bi bi-play-circle"></i>
-                  <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
+                  <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Guarda Video</a>
                 </div>
               </div>
             </div>
@@ -45,7 +44,6 @@
   
         </div>
       </section>
-      <!-- End About Section -->
   
 
   
@@ -54,8 +52,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Constructions</h2>
-          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+          <h2>Attestati</h2>
         </div>
 
         <div class="row gy-4">
@@ -166,8 +163,7 @@
         <div class="container" data-aos="fade-up">
   
           <div class="section-header">
-            <h2>Our Team</h2>
-            <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+            <h2>Il Team</h2>
           </div>
   
           <div class="row gy-5">

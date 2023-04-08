@@ -6,17 +6,47 @@ class PublicController extends Controller
 {
     public function index(){
         $services = [
-            ['id' => 1, 'name' => 'Impianti Domotici', 'icon' => '/img/icon/house-signal-solid.svg', 'description' => "Realizziamo impianti domotici, al fine di poter gestire e controllare la nostra casa in maniera intelligente."],
-            ['id' => 2, 'name' => 'Impianti Fotovoltaici e Eolici', 'icon' => '/img/icon/sun-solid.svg', 'description' => "Realizziamo impianti alimentati da fonti rinnovabili per produrre energia elettrica evitando immissione in atmosfera di sostanze inquinanti."],
-            ['id' => 3, 'name' => 'Impianti industriali', 'icon' => '/img/icon/house-lock-solid.svg', 'description' => "Progettiamo e realizziamo impianti e automazioni industriali all’interno di nuove costruzioni e messa a norma di edifici esistenti."]
+            ['id' => 1, 'name' => 'Impianti Domotici', 'icon' => '/img/icon/house-lock.svg', 'description' => "Realizziamo impianti domotici, al fine di poter gestire e controllare la nostra casa in maniera intelligente."],
+            ['id' => 2, 'name' => 'Impianti Fotovoltaici e Eolici', 'icon' => '/img/icon/sun.svg', 'description' => "Realizziamo impianti alimentati da fonti rinnovabili per produrre energia elettrica evitando immissione in atmosfera di sostanze inquinanti."],
+            ['id' => 3, 'name' => 'Impianti industriali', 'icon' => '/img/icon/buildings.svg', 'description' => "Progettiamo e realizziamo impianti e automazioni industriali all’interno di nuove costruzioni e messa a norma di edifici esistenti."]
         ];
         $works = [
-            ['id' => 1, 'title' => 'da definire', 'alt' => 'sistema di antincendio', 'img' => 'img/projects/progetto1.jpeg'],
-            ['id' => 2, 'title' => 'da definire', 'alt' => 'illuminazione interna', 'img' => 'img/projects/progetto6.jpeg'],
-            ['id' => 3, 'title' => 'da definire', 'alt' => 'illuminazione interna', 'img' => '/img/projects/progetto1.jpeg'],
-            ['id' => 4, 'title' => 'da definire', 'alt' => 'illuminazione interna', 'img' => 'img/projects/progetto4.jpeg'],
-            ['id' => 5, 'alt' => 'Videosorveglianza', 'title' => "da definire", 'img' => 'img/projects/progetto5.jpeg'],
-            ['id' => 6, 'alt' => 'Videosorveglianza', 'title' => 'da definire', 'img' => 'img/projects/progetto6.jpeg'],
+            [
+                'id' => 1, 
+                'title' => 'da definire', 
+                'alt' => 'da definire', 
+                'img' => 'img/projects/progetto1.jpeg'
+            ],
+            [
+                'id' => 2, 
+                'title' => 'da definire', 
+                'alt' => 'da definire', 
+                'img' => 'img/projects/progetto6.jpeg'
+            ],
+            [
+                'id' => 3, 
+                'title' => 'da definire', 
+                'alt' => 'da definire', 
+                'img' => '/img/projects/progetto1.jpeg'
+            ],
+            [
+                'id' => 4, 
+                'title' => 'da definire', 
+                'alt' => 'da definire', 
+                'img' => 'img/projects/progetto4.jpeg'
+            ],
+            [
+                'id' => 5, 
+                'alt' => 'da definire', 
+                'title' => "da definire", 
+                'img' => 'img/projects/progetto5.jpeg'
+            ],
+            [
+                'id' => 6, 
+                'alt' => 'da definire', 
+                'title' => 'da definire', 
+                'img' => 'img/projects/progetto6.jpeg'
+            ],
         ];
 
         return view('index', ['services' => $services], ['works' => $works]);
@@ -34,17 +64,17 @@ class PublicController extends Controller
         return view ('cookies');
     }
 
-    public function services() {
-        $services = [
-            ['id' => 1, 'name' => 'Antincendio','img' => '/img/service-1.jpg'],
-            ['id' => 2, 'name' => 'Automazione', 'img' => '/img/service-2.jpg'],
-            ['id' => 3, 'name' => 'Illuminazione e Domotica', 'img' => '/img/service-3.jpg'],
-            ['id' => 4, 'name' => 'Impianti fotovoltaici', 'img' => '/img/service-4.jpg'],
-            ['id' => 5, 'name' => 'Videocitofonia', 'img' => '/img/service-5.jpg'],
-            ['id' => 6, 'name' => 'Videosorveglianza e Antintrusione', 'img' => '/img/service-6.jpg']
-        ];
-        return view('service', ['services' => $services]);
-    }
+    // public function services() {
+    //     $services = [
+    //         ['id' => 1, 'name' => 'Antincendio','img' => '/img/service-1.jpg'],
+    //         ['id' => 2, 'name' => 'Automazione', 'img' => '/img/service-2.jpg'],
+    //         ['id' => 3, 'name' => 'Illuminazione e Domotica', 'img' => '/img/service-3.jpg'],
+    //         ['id' => 4, 'name' => 'Impianti fotovoltaici', 'img' => '/img/service-4.jpg'],
+    //         ['id' => 5, 'name' => 'Videocitofonia', 'img' => '/img/service-5.jpg'],
+    //         ['id' => 6, 'name' => 'Videosorveglianza e Antintrusione', 'img' => '/img/service-6.jpg']
+    //     ];
+    //     return view('service', ['services' => $services]);
+    // }
 
     // public function serviceDetail($id) {
     //     $services = [

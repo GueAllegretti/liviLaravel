@@ -40,7 +40,7 @@
       
       @foreach($services as $service)
 
-      <x-card
+      <x-cardServices
         id="{{$service['id']}}"
         name="{{$service['name']}}"
         icon="{{$service['icon']}}"
@@ -60,7 +60,10 @@
 
     <div class="section-header">
       <h2>I progetti</h2>
-      <p>Collaborando con un team di progettisti qualificati, disponiamo di tecnici esperti, adeguatamente formati per assicurare qualità, serietà, sicurezza e rapidità nei tempi di esecuzione dei lavori e tempestività negli interventi di manutenzione.</p>
+      <p>
+        Collaborando con un team di progettisti qualificati, disponiamo di tecnici esperti, adeguatamente formati per assicurare qualità, 
+        <br>
+        sicurezza e rapidità nei tempi di esecuzione dei lavori e tempestività negli interventi di manutenzione.</p>
     </div>
 
       <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
