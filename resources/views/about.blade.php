@@ -3,23 +3,18 @@
 
     <div class="breadcrumbs d-flex align-items-center">
         <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
-  
           <h2>L'azienda</h2>
           <ol>
             <li><a href="{{route('index')}}">Home</a></li>
             <li>Chi Siamo</li>
           </ol>
-  
         </div>
       </div>
   
       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
-  
           <div class="row position-relative">
-  
             <div class="col-lg-7 about-img" style="background-image: url(/img/azienda.jpeg);"></div>
-  
             <div class="col-lg-7">
               <h2></h2>
               <div class="our-story">
@@ -39,24 +34,19 @@
                 </div>
               </div>
             </div>
-  
           </div>
-  
         </div>
       </section>
   
 
   
-    <!-- Certifications Start -->
-    <section id="constructions" class="constructions">
+ 
+    <section id="constructions" class="constructions section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-header">
           <h2>Attestati</h2>
         </div>
-
         <div class="row gy-4">
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card-item">
               <div class="row">
@@ -65,13 +55,13 @@
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+                    <h4 class="card-title">Lavori BT</h4>
+                    <p>Lavori in prossimità di impianti elettrici e lavori elettrici sotto tensione BT e fuori tensioni in AT e BT.</p>
                   </div>
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card-item">
@@ -87,7 +77,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card-item">
@@ -103,7 +93,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card-item">
@@ -119,7 +109,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card-item">
@@ -135,7 +125,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card-item">
@@ -151,7 +141,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
         </div>
 
