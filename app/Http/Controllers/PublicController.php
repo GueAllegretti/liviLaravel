@@ -13,8 +13,8 @@ class PublicController extends Controller
         $works = [
             [
                 'id' => 1, 
-                'title' => 'da definire', 
-                'alt' => 'da definire', 
+                'title' => 'Impianto fotovoltaico 6.70kw, Torre a Mare (Bari)', 
+                'alt' => 'Impianto fotovoltaico', 
                 'img' => 'img/projects/progetto1.jpeg'
             ],
             [
@@ -64,17 +64,9 @@ class PublicController extends Controller
         return view ('cookies');
     }
 
-    // public function services() {
-    //     $services = [
-    //         ['id' => 1, 'name' => 'Antincendio','img' => '/img/service-1.jpg'],
-    //         ['id' => 2, 'name' => 'Automazione', 'img' => '/img/service-2.jpg'],
-    //         ['id' => 3, 'name' => 'Illuminazione e Domotica', 'img' => '/img/service-3.jpg'],
-    //         ['id' => 4, 'name' => 'Impianti fotovoltaici', 'img' => '/img/service-4.jpg'],
-    //         ['id' => 5, 'name' => 'Videocitofonia', 'img' => '/img/service-5.jpg'],
-    //         ['id' => 6, 'name' => 'Videosorveglianza e Antintrusione', 'img' => '/img/service-6.jpg']
-    //     ];
-    //     return view('service', ['services' => $services]);
-    // }
+    public function services() {
+        return view('service');
+    }
 
     // public function serviceDetail($id) {
     //     $services = [

@@ -6,65 +6,58 @@
 
   <div class="breadcrumbs d-flex align-items-center">
     <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
-
       <h2>Servizi</h2>
       <ol>
         <li><a href="{{route('index')}}">Home</a></li>
         <li>Servizi</li>
       </ol>
-
     </div>
   </div>
 
-  <!-- ======= Alt Services Section 2 ======= -->
   <section id="alt-services-2" class="alt-services section-bg">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
         <div class="col-lg-5 d-flex flex-column justify-content-center">
-          <h3>Non quasi officia eum nobis et rerum epudiandae rem voluptatem</h3>
-          <p>Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at non. Ducimus maxime minima iste magni sit praesentium assumenda minus. Amet rerum saepe tempora vero.</p>
+          <h3>Impianti industriali</h3>
+          <p>Progettiamo e realizziamo impianti e automazione industriale all’interno di nuove costruzioni e messa a norma di edifici esistenti. Poniamo particolare attenzione nella fornitura e cablaggio di quadri elettrici, gruppi di continuità e gruppi elettrogeni. Le strutture interessate sono:</p>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-            <i class="bi bi-easel flex-shrink-0"></i>
-            <div>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div><!-- End Icon Box -->
-
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="100">
             <i class="bi bi-patch-check flex-shrink-0"></i>
             <div>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p class="pt-3">Capannoni industriali</p>
             </div>
-          </div><!-- End Icon Box -->
+          </div>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-patch-check flex-shrink-0"></i>
+            <div>
+              <p class="pt-3">Strutture sportive quali palestre, piscine,ecc..</p>
+            </div>
+          </div>
+
+          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="300">
             <i class="bi bi-brightness-high flex-shrink-0"></i>
             <div>
-              <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-              <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              <p class="pt-3">Centrali termiche</p>
             </div>
-          </div><!-- End Icon Box -->
+          </div>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="400">
             <i class="bi bi-brightness-high flex-shrink-0"></i>
             <div>
-              <h4><a href="" class="stretched-link">Tride clov</a></h4>
-              <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+              <p class="pt-3">Centri commerciali e magazzini</p>
             </div>
-          </div><!-- End Icon Box -->
+          </div>
         </div>
 
-        <div class="col-lg-6 img-bg" style="background-image: url(https://via.placeholder.com/700x600);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(https://scontent-fco2-1.xx.fbcdn.net/v/t1.18169-9/1236269_433415580107814_1486583070_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=Jz6we3WHhW8AX9CW8za&_nc_ht=scontent-fco2-1.xx&oh=00_AfBtD7VnX0rBDdtNTqqiM57kBtkWVsL9sNeCeq_fsqWANQ&oe=645D30BF);" data-aos="zoom-in" data-aos-delay="100"></div>
       </div>
 
     </div>
-  </section><!-- End Alt Services Section 2 -->
+  </section>
 
-  <!-- ======= Alt Services Section ======= -->
+
   <section id="alt-services" class="alt-services">
     <div class="container" data-aos="fade-up">
 
@@ -76,37 +69,33 @@
           <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
           <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-            <i class="bi bi-easel flex-shrink-0"></i>
-            <div>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div><!-- End Icon Box -->
-
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="100">
             <i class="bi bi-patch-check flex-shrink-0"></i>
             <div>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p class="pt-3">Capannoni industriali</p>
             </div>
-          </div><!-- End Icon Box -->
+          </div>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-patch-check flex-shrink-0"></i>
+            <div>
+              <p class="pt-3">Strutture sportive quali palestre, piscine,ecc..</p>
+            </div>
+          </div>
+
+          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="300">
             <i class="bi bi-brightness-high flex-shrink-0"></i>
             <div>
-              <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-              <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              <p class="pt-3">Centrali termiche</p>
             </div>
-          </div><!-- End Icon Box -->
+          </div>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="400">
             <i class="bi bi-brightness-high flex-shrink-0"></i>
             <div>
-              <h4><a href="" class="stretched-link">Tride clov</a></h4>
-              <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+              <p class="pt-3">Centri commerciali e magazzini</p>
             </div>
-          </div><!-- End Icon Box -->
+          </div>
 
         </div>
       </div>
@@ -119,10 +108,10 @@
       <div class="container" data-aos="fade-up">
   
         <div class="row gy-4">
-  
+          
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-            <h3>Quasi eaque omnis</h3>
-            <p>Eius non minus autem soluta ut ui labore omnis quisquam corrupti autem odit voluptas quos commodi magnam occaecati.</p>
+            <h3>Tecnici esperti</h3>
+            <p> Liviimpianti collaborando con un team di progettisti qualificati, dispone di tecnici esperti, adeguatamente formati per assicurare qualità, serietà, sicurezza e rapidità nei tempi di esecuzione dei lavori e tempestività negli interventi di manutenzione.</p>
             <ul class="list-unstyled">
               <li><i class="fa-solid fa-check"></i> <span>Ullamco laboris nisi ut aliquip</span></li>
               <li><i class="fa-solid fa-check"></i> <span>Duis aute irure dolor in reprehenderit</span></li>
@@ -132,7 +121,7 @@
   
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <h3>Et nemo dolores consectetur</h3>
-            <p>Ducimus ea quam et occaecati est. Temporibus in soluta labore voluptates aut. Et sit soluta non repellat sed quia dire plovers tradoria</p>
+            <p>Dotati di strumentazione tecnologicamente all’avanguardia si garantisce un servizio di qualità nell’assistenza e gestione degli impianti esistenti al fine di renderli sempre efficaci. In tal senso la gestione egli impianti di sorveglianza dell’ Istituto di vigilanza “L’Aquila” rappresenta un motivo di orgoglio.</p>
   
             <ul class="list-unstyled">
               <li><i class="fa-solid fa-check"></i> <span>Enim temporibus maiores eligendi</span></li>
@@ -143,7 +132,8 @@
   
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <h3>Staque laboriosam modi</h3>
-            <p>Velit eos error et dolor omnis voluptates nobis tenetur sed enim nihil vero qui suscipit ipsum at magni. Ipsa architecto consequatur aliquam</p>
+            <p>Liviimpianti già tecnico specializzato “impianti domotici” bticino, detiene le certificazioni a norma di legge, e garantisce la propria opera con gli attestati conseguiti nel tempo e investendo nella formazione e aggiornamenti continui.
+              </p>
             <ul class="list-unstyled">
               <li><i class="fa-solid fa-check"></i> <span>Quis voluptates laboriosam numquam</span></li>
               <li><i class="fa-solid fa-check"></i> <span>Treva libero sunt quis veniam ut</span></li>
@@ -153,18 +143,19 @@
   
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <h3>Dignissimos suscipit iste</h3>
-            <p>Molestiae occaecati assumenda quia saepe nobis recusandae at dicta ducimus sequi numquam commodi est in consequatur ea magnam quia itaque</p>
+            <p>
+              Operiamo nel campo impianti industriali, civili con gli innovativi impianti domotici, energia pulita con (Eolico, Fotovoltaico, Biomasse). Impianti di Videosorveglianza come GPS interrati. Manutenzione e Assistenza 24/24.</p>
             <ul class="list-unstyled">
               <li><i class="fa-solid fa-check"></i> <span>Veritatis qui reprehenderit quis</span></li>
               <li><i class="fa-solid fa-check"></i> <span>Accusantium vel numquam sunt minus</span></li>
               <li><i class="fa-solid fa-check"></i> <span>Voluptatem pariatur est sationem</span></li>
             </ul>
-          </div><!-- End feature item-->
+          </div>
   
         </div>
   
       </div>
-    </section><!-- End Servie Cards Section -->
+    </section>
 
 
 </x-layout>
