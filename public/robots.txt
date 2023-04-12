@@ -1,3 +1,2 @@
 User-agent: *
 Disallow:
-sitemap: http://www.cgimpiantielettrici.it/sitemap.xml

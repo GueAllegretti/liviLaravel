@@ -7,7 +7,7 @@
         <div class="col-12">
           <div class="footer-info">
             <div class="text-center p-3">
-              <h6 class="fw-light">Livi Impianti - P.IVA 000000000</h6>
+              <h6 class="fw-light">Livi Impianti S.r.l.s. - P.IVA 000000000</h6>
               <p class="fw-lighter">Via SS. Annunziata 6, Pomarico MT</p> 
               <div class="social-links d-flex align-items-center justify-content-center m-2">
                 <a href="https://www.facebook.com/liviimpianti" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>

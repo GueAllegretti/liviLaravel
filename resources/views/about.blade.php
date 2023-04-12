@@ -30,7 +30,7 @@
                 </ul>  
                 <div class="watch-video d-flex align-items-center position-relative">
                   <i class="bi bi-play-circle"></i>
-                  <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Guarda Video</a>
+                  <a href="https://www.facebook.com/liviimpianti/videos/3248417628611712" class="glightbox" target="_blank">Guarda Video</a>
                 </div>
               </div>
             </div>
@@ -38,10 +38,7 @@
         </div>
       </section>
   
-
-  
- 
-    <section id="constructions" class="constructions section-bg">
+    <section id="certifications" class="certifications section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Attestati</h2>

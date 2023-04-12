@@ -22,25 +22,25 @@
         </div>
         
         <div class="col-lg-6">
-          <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-map"></i>
-            <h3>Indirizzo</h3>
+          <div class="info-item d-flex flex-column justify-content-center align-items-center">
+            <i class="bi bi-map d-flex align-items-center justify-content-center"></i>
+            <h3 class="fs-5 fw-bolder mt-2 mb-2">Indirizzo</h3>
             <p>Via SS. Annunziata, 6 Pomarico (Mt)</p>
           </div>
        
           <div class="row pt-4 gy-4">
         <div class="col-lg-6 col-md-6">
           <div class="info-item d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-envelope"></i>
-            <h3>Email</h3>
+            <i class="bi bi-envelope d-flex align-items-center justify-content-center"></i>
+            <h3 class="fs-5 fw-bolder mt-2 mb-2">Email</h3>
             <a href="mailto:info@liviimpianti.it?subject=Richiesta informazioni" class="fw-light">info@liviimpianti.it</a>
           </div>
         </div>
 
         <div class="col-lg-6 col-md-6">
           <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-            <i class="bi bi-telephone"></i>
-            <h3>Telefono</h3>
+            <i class="bi bi-telephone d-flex align-items-center justify-content-center"></i>
+            <h3 class="fs-5 fw-bolder mt-2 mb-2">Telefono</h3>
             <a href="tel:+390835551916" class="fw-medium mb-0 link-cg">0835 551916</a>
           </div>
         </div>

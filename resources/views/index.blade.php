@@ -15,7 +15,7 @@
           <br>
           <span>Impianti</span></h2>
           <p data-aos="fade-up">Azienda giovane e dinamica, mettiamo a completa disposizione tutte le nostre conoscenze nell’ambito dell’impiantistica elettrica al fine di poter realizzare tutte le vostre esigenze. </p>
-          <a data-aos="fade-up" data-aos-delay="200" href="#services" class="btn-masthead">Scopri di più</a>
+          <a data-aos="fade-up" data-aos-delay="200" href="#services" class="m-2 px-5 py-3 fs-6 fw-bolder btn-masthead">Scopri di più</a>
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@
         sicurezza e rapidità nei tempi di esecuzione dei lavori e tempestività negli interventi di manutenzione.</p>
     </div>
 
-      <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
         @foreach($works as $work)
     
         <x-cardWork
