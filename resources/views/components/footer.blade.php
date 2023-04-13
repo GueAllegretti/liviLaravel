@@ -27,10 +27,10 @@
 
   <div class="footer-legal text-center position-relative">
     <div class="container">
-      <div class="copyright">
+      <div class="copyright pt-3">
         &copy; Copyright Livi Impianti. All Rights Reserved
       </div>
-      <div class="credits">
+      <div class="credits pt-2 pb-2">
         Powered &#10084; GA
       </div>
     </div>

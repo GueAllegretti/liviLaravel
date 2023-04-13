@@ -14,28 +14,28 @@
     </div>
   </div>
 
-  <section id="alt-services" class="alt-services section-bg">
+  <section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Impianti industriali</h3>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
             <i class="bi bi-caret-right p-3"></i>
             <div>
               <p>Progettiamo e realizziamo impianti e automazione industriale all’interno di nuove costruzioni e messa a norma di edifici esistenti.</p>
             </div>
           </div>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
             <i class="bi bi-caret-right p-3"></i>
             <div>
               <p>Poniamo particolare attenzione nella fornitura e cablaggio di quadri elettrici, gruppi di continuità e gruppi elettrogeni.</p>
             </div>
           </div>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
             <i class="bi bi-caret-right p-3"></i>
             <div>
               <p>Le strutture interessate sono: capannoni industriali, strutture sportive quali palestre, piscine,ecc.., centrali termiche, centri commerciali e magazzini</p>
@@ -50,7 +50,7 @@
   </section>
 
 
-  <section id="alt-services" class="alt-services">
+  <section id="services" class="services">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
@@ -59,21 +59,21 @@
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Impianti civili</h3>
 
-          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="100">
             <i class="bi bi-caret-right p-3"></i>
             <div>
               <p>Progettiamo e realizziamo impianti elettrici civili in grado di soddisfare le più disparate esigenze personali così da rendere il proprio ambiente unico e personalizzato.</p>
             </div>
           </div>
 
-          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="200">
             <i class="bi bi-caret-right p-3"></i>
             <div>
               <p> Tutti i servizi vengono offerti “chiavi in mano” in modo da garantire i lavori senza il minimo disturbo, occupandoci della progettazione, della costruzione e dei relativi problemi legati all’allacciamento con il gestore di fornitura elettrica.</p>
             </div>
           </div>
 
-          <div class="icon-box d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="300">
             <i class="bi bi-caret-right p-3"></i>
             <div>
               <p> Particolare attenzione viene posta alla realizzazione di impianti domotici, impianto che introduce nelle nostre case il concetto di casa intelligente al fine di poter gestire e controllare la nostra casa da qualsiasi terminale, quale internet, cellulare o addirittura in automatico così da dare un aiuto e sollievo a noi ed in particolar modo alle persone diversamente abili.</p>
@@ -87,14 +87,14 @@
   </section>
 
 
-  <section id="alt-services" class="alt-services section-bg">
+  <section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Fonti rinnovabili</h3>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
             <i class="bi bi-caret-right p-3"></i>
             <div>
               <p>Il costante interesse per la salvaguardia dell'ambiente ci spinge a puntare sulla realizzazione di impianti alimentati da fonti rinnovabili quali fotovoltaici, eolici o minieolico al fine di produrre energia elettrica evitando l'immissione in atmosfera di sostanze inquinanti. 
@@ -102,7 +102,7 @@
             </div>
           </div>
 
-          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
             <i class="bi bi-caret-right p-3"></i>
             <div>
               <p>Ci occupiamo di tutte le fasi di lavoro, la richiesta di permessi di costruzione e incentivo GSE, la realizzazione del progetto, la fornitura e la posa in opera di moduli fotovoltaici, inverter o turbine eoliche, fino all'emissione di tutta la documentazione e assistenza al distributore di energia per la messa in marcia dell'impianto e accesso all'incentivo statale</p>

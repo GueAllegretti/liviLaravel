@@ -1,5 +1,5 @@
-@section('meta_keywords','elettricista matera, assistenza, manutenzione, impianti elettrici, impianti allarme, impianti di automazioni, impianti di rilevazione fumi, impianti di TVCC, antintrusione, impianti fotovoltaici, assistenza, impianti antincendio, cablaggio strutturato, manutenzione di impianti esistenti, impianti domotici')
-@section('meta_description', 'Azienda con sede a Matera, professionisti in impianti elettrici, illuminotecnici e domotici. Installazione di impianti antincendio e videosorveglianza, pannelli fotovoltaici, automazioni civili e industriali')
+@section('meta_keywords','elettricista Pomarico (Matera), assistenza, manutenzione, impianti elettrici, impianti allarme, impianti di automazioni, impianti di rilevazione fumi, impianti di TVCC, antintrusione, impianti fotovoltaici, assistenza, impianti antincendio, cablaggio strutturato, manutenzione di impianti esistenti, impianti domotici')
+@section('meta_description', 'Azienda con sede a Pomarico (Matera), professionisti in impianti elettrici, illuminotecnici e domotici. Installazione di impianti antincendio e videosorveglianza, pannelli fotovoltaici, automazioni civili e industriali')
 
 <x-layout>
   <x-slot name="title">Livi Impianti</x-slot>
@@ -14,8 +14,8 @@
           <h2 data-aos="fade-down">Livi 
           <br>
           <span>Impianti</span></h2>
-          <p data-aos="fade-up">Azienda giovane e dinamica, mettiamo a completa disposizione tutte le nostre conoscenze nell’ambito dell’impiantistica elettrica al fine di poter realizzare tutte le vostre esigenze. </p>
-          <a data-aos="fade-up" data-aos-delay="200" href="#services" class="m-2 px-5 py-3 fs-6 fw-bolder btn-masthead">Scopri di più</a>
+          <p data-aos="fade-up">Un' azienda giovane e dinamica, che mette a completa disposizione tutte le nostre conoscenze nell’ambito dell’impiantistica elettrica al fine di poter realizzare tutte le vostre esigenze. </p>
+          <a data-aos="fade-up" data-aos-delay="200" href="{{route('service')}}" class="m-2 px-5 py-3 fs-6 fw-bolder btn-masthead">Scopri di più</a>
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
 <section id="services" class="services section-bg">
   <div class="container" data-aos="fade-up">
 
-    <div class="section-header">
+    <div class="section-header text-center">
       <h2>Servizi</h2>
       <p>
         Progettazione, costruzione e manutenzione di impianti elettrici civili ed industriali, domotici, fotovoltaici ed eolici.
@@ -58,7 +58,7 @@
 <section id="projects" class="projects">
   <div class="container" data-aos="fade-up">
 
-    <div class="section-header">
+    <div class="section-header text-center">
       <h2>I progetti</h2>
       <p>
         Collaborando con un team di progettisti qualificati, disponiamo di tecnici esperti, adeguatamente formati per assicurare qualità, 

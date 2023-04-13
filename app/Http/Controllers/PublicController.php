@@ -53,7 +53,15 @@ class PublicController extends Controller
     }
 
     public function about() {
-        return view ('about');
+        $certifications = [
+            ['id' => 1, 'img' => '/img/certifications/certificato2.png'],
+            ['id' => 2, 'img' => '/img/certifications/certificato6.png'],
+            ['id' => 3, 'img' => '/img/certifications/certificato5.png'],
+            ['id' => 4, 'img' => '/img/certifications/certificato4.png'],
+            ['id' => 5, 'img' => '/img/certifications/certificato3.png'],
+            ['id' => 6, 'img' => '/img/certifications/certificato1.png']
+        ];
+        return view ('about', ['certifications' => $certifications]);
     }
 
     public function contact() {

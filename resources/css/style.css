@@ -1,5 +1,5 @@
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-default: "Open Sans", sans-serif;
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Work Sans", sans-serif;
   --color-default: #364d59;
@@ -19,7 +19,7 @@ a {
   text-decoration: none;
 }
 
-li {
+li, ol, ul {
   list-style: none;
 }
 
@@ -42,7 +42,6 @@ section {
 }
 
 .section-header {
-  text-align: center;
   padding-bottom: 70px;
 }
 
@@ -93,7 +92,6 @@ section {
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
   padding: 0 0 10px 0;
   margin: 0;
   font-size: 16px;
@@ -169,29 +167,6 @@ section {
   border-radius: 0;
 }
 
-.certifications .card-item .card-bg {
-  min-height: 300px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.certifications .card-item .card-body {
-  padding: 30px;
-}
-
-.certifications .card-item h4 {
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 15px;
-  color: var(--color-secondary);
-}
-
-.certifications .card-item p {
-  color: var(--color-secondary);
-  margin: 0;
-}
-
 /* SERVICES */
 .service-livi {
   padding: 40px;
@@ -220,7 +195,7 @@ section {
   font-size: 22px;
   position: relative;
   display: inline-block;
-  border-bottom: 4px solid #ebebed;
+  border-bottom: 4px solid #e5e5e6;
   transition: 0.3s;
 }
 
@@ -288,13 +263,13 @@ section {
 }
 
 /* SERVICES */
-.alt-services .img-bg {
+.services .img-bg {
   background-size: cover;
   background-position: center center;
   min-height: 400px;
 }
 
-.alt-services h3 {
+.services h3 {
   font-size: 28px;
   color: var(--color-secondary);
   margin-bottom: 20px;
@@ -302,11 +277,11 @@ section {
   position: relative;
 }
 
-.alt-services .icon-box {
+.services .icon {
   margin-top: 30px;
 }
 
-.alt-services .icon-box i {
+.services .icon i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -322,32 +297,47 @@ section {
   transition: 0.3s;
 }
 
-.alt-services .icon-box:hover i {
+.services .icon:hover i {
   background-color: var(--color-primary);
   color: var(--color-standard);
 }
 
-.alt-services .icon-box p {
+.services .icon p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
-.about h2 {
-  font-size: 48px;
+.services-cards h3 {
+  font-size: 20px;
   font-weight: 700;
-  font-family: var(--font-secondary);
-  margin: 30px 0;
+  color: var(--color-secondary);
 }
 
-@media (min-width: 991px) {
-  .about h2 {
-    max-width: 65%;
-    margin: 0 0 80px 0;
-  }
+.services-cards p {
+  font-size: 14px;
+}
+
+.services-cards ul li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.services-cards ul li i {
+  font-size: 16px;
+  color: var(--color-primary);
+  margin-right: 6px;
+}
+
+
+/* ABOUT */
+.about h2 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  margin: 30px 0;
 }
 
 .about .our-story {
@@ -361,62 +351,32 @@ section {
   }
 }
 
-.about .our-story h4 {
-  text-transform: uppercase;
-  font-size: 18px;
-  color: #838893;
-}
-
-.about .our-story h3 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: var(--color-secondary);
-}
-
-.about .our-story p:last-child {
-  margin-bottom: 0;
-}
-
 .about ul {
-  list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
 .about ul li {
-  padding: 5px 0;
   display: flex;
   align-items: center;
 }
 
 .about ul i {
-  font-size: 20px;
-  margin-right: 4px;
   color: var(--color-primary);
 }
 
 .about .watch-video i {
-  font-size: 32px;
   transition: 0.3s;
   color: var(--color-primary);
 }
 
 .about .watch-video a {
-  font-weight: 600;
   color: var(--color-secondary);
-  margin-left: 8px;
   transition: 0.3s;
 }
 
 .about .watch-video:hover a {
   color: var(--color-primary);
-}
-
-.about .about-img {
-  min-height: 600px;
-  background-size: cover;
-  background-position: center;
 }
 
 @media (min-width: 992px) {
@@ -499,38 +459,6 @@ section {
 .team .member .member-info p {
   margin-bottom: 0;
   font-size: 14px;
-}
-
-.team .member:hover .member-img .social {
-  padding-bottom: 0;
-  visibility: visible;
-  opacity: 1;
-}
-
-/*--------------------------------------------------------------
-# Servie Cards Section
---------------------------------------------------------------*/
-.services-cards h3 {
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--color-secondary);
-}
-
-.services-cards p {
-  font-size: 15px;
-}
-
-.services-cards ul li {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  padding-top: 10px;
-}
-
-.services-cards ul li i {
-  font-size: 16px;
-  color: var(--color-primary);
-  margin-right: 6px;
 }
 
 /* CONTACT */
@@ -647,12 +575,10 @@ section {
 }
 
 .copyright {
-  padding-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .credits {
-  padding-top: 4px;
   font-size: 13px;
   color: var(--color-standard);
 }
