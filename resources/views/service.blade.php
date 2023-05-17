@@ -14,6 +14,8 @@
     </div>
   </div>
 
+  #TODO change description add keywords
+
   <section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
 
@@ -115,6 +117,97 @@
 
     </div>
   </section>
+
+
+  <section id="services" class="services">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-around gy-4">
+        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto9.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+        <div class="col-lg-5 d-flex flex-column justify-content-center">
+          <h3 class="fs-3">Movimento Terra</h3>
+
+          <div class="icon d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="100">
+            <i class="bi bi-caret-right p-3"></i>
+            <div>
+              <p>Realizzazione impianti di movimento terra, pulizie stradali, pulizie cunette e taglio erba parchi fotovoltaici di grandi dimensioni.</p>
+            </div>
+          </div>
+
+          <div class="icon d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-caret-right p-3"></i>
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorum reprehenderit unde consequuntur consectetur porro cumque repudiandae omnis placeat quod! Iusto itaque molestiae consequuntur et nesciunt eius quibusdam vel ad.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="services" class="services section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-around gy-4">
+        <div class="col-lg-5 d-flex flex-column justify-content-center">
+          <h3 class="fs-3">Servizio Sorvegliante</h3>
+
+          <div class="icon d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+            <i class="bi bi-caret-right p-3"></i>
+            <div>
+              <p>Servizio di manutenzione e Ruolo di sorvegliante siti minerari.              
+              </p>
+            </div>
+          </div>
+
+          <div class="icon d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-caret-right p-3"></i>
+            <div>
+              <p>Esecuzione di opere elettrostrumentali, civili e di taglio erba area pozzi minerari  </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto10.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="services" class="services">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-around gy-4">
+        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto11.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+        <div class="col-lg-5 d-flex flex-column justify-content-center">
+          <h3 class="fs-3">Assistenza Impianti</h3>
+
+          <div class="icon d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-caret-right p-3"></i>
+            <div>
+              <p>Servizio di manutenzione programmata e/o su chiamata su impianti elettrici, pubblica illuminazione, parchi fotovoltaici e parchi eolici anche H24.</p>
+            </div>
+          </div>
+
+          <div class="icon d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-caret-right p-3"></i>
+            <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nisi nemo fuga hic blanditiis porro maiores labore iure provident beatae sequi asperiores iste voluptate, modi, iusto perferendis mollitia rem natus!</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
 
 
     <section id="services-cards" class="services-cards">

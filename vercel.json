@@ -14,12 +14,8 @@
             "dest": "/public/img/$1"
         },
         {
-            "src": "/logo/(.*)",
-            "dest": "/public/logo"
-        },
-        {
             "src": "/favicon/(.*)",
-            "dest": "/public/favicon"
+            "dest": "/public/"
         },
         {
             "src": "/fonts/(.*)",
