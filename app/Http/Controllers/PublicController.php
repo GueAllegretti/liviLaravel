@@ -8,7 +8,7 @@ class PublicController extends Controller
         $services = [
             ['id' => 1, 'name' => 'Impianti Domotici', 'icon' => '/img/icon/house-lock.svg', 'description' => "Realizziamo impianti domotici, al fine di poter gestire e controllare la nostra casa in maniera intelligente anche con unico dispositivo."],
             ['id' => 2, 'name' => 'Fotovoltaico ed Eolico', 'icon' => '/img/icon/sun.svg', 'description' => "Realizziamo impianti alimentati da fonti rinnovabili per produrre energia elettrica evitando immissione in atmosfera di sostanze inquinanti."],
-            ['id' => 3, 'name' => 'Impianti industriali', 'icon' => '/img/icon/buildings.svg', 'description' => "Progettiamo e realizziamo impianti e automazioni industriali all’interno di nuove costruzioni e messa a norma di edifici esistenti."]
+            ['id' => 3, 'name' => 'Impianti Industriali', 'icon' => '/img/icon/buildings.svg', 'description' => "Progettiamo e realizziamo impianti e automazioni industriali all’interno di nuove costruzioni e messa a norma di edifici esistenti."]
         ];
         $works = [
             [
@@ -54,12 +54,10 @@ class PublicController extends Controller
 
     public function about() {
         $certifications = [
-            ['id' => 1, 'img' => '/img/certifications/certificato2.png'],
-            ['id' => 2, 'img' => '/img/certifications/certificato6.png'],
-            ['id' => 3, 'img' => '/img/certifications/certificato5.png'],
-            ['id' => 4, 'img' => '/img/certifications/certificato4.png'],
-            ['id' => 5, 'img' => '/img/certifications/certificato3.png'],
-            ['id' => 6, 'img' => '/img/certifications/certificato1.png']
+            ['id' => 1, 'img' => '/img/about/5.jpg'],
+            ['id' => 2, 'img' => '/img/about/6.jpg'],
+            ['id' => 3, 'img' => '/img/about/7.jpg'],
+            ['id' => 4, 'img' => '/img/about/8.jpg']
         ];
         return view ('about', ['certifications' => $certifications]);
     }

@@ -7,12 +7,15 @@
         <div class="col-12">
           <div class="footer-info">
             <div class="text-center p-3">
-              <h6 class="fw-light">Livi Impianti S.r.l.s. - P.IVA 000000000</h6>
-              <p class="fw-lighter">Via SS. Annunziata 6, Pomarico MT</p> 
+              <h6 class="fw-light">LIVI IMPIANTI S.R.L.S. – P.IVA 01399910775</h6>
+              <p class="fw-lighter">Zona PIP Contrada Manferrara sn</p>
+              <p class="fw-lighter">75016 – Pomarico (MT)</p>
               <div class="social-links d-flex align-items-center justify-content-center m-2">
                 <a href="https://www.facebook.com/liviimpianti" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/liviimpianti/" target="blank"  class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
                 <a href="http://api.whatsapp.com/send?phone=+393204760402&text=Salve, vorrei avere maggiori informazioni" target="blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="mailto:info@liviimpianti.it?subject=Richiesta informazioni" target="blank" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-envelope"></i>
                 </a>
               </div>
               <a href="{{route('cookies')}}" class="link-footer me-4 fw-light">Cookies Policy</a>

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: black">
   <a class="navbar-brand logo mx-3 me-5" href="/">
-    <img src="/logo.png" alt="logo livi impianti">
+    <img src="img/logo.png" alt="logo livi impianti">
   </a>
   <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -24,6 +24,8 @@
         <a href="https://www.facebook.com/liviimpianti" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/liviimpianti/" target="blank"  class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
         <a href="http://api.whatsapp.com/send?phone=+393204760402&text=Salve, vorrei avere maggiori informazioni" target="blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="mailto:info@liviimpianti.it?subject=Richiesta informazioni" target="blank" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-envelope"></i>
         </a>
       </div>
     </li>
