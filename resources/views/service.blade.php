@@ -14,7 +14,7 @@
     </div>
   </div>
 
-  #TODO change description add keywords
+  {{-- TODO change description add keywords --}}
 
   <section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
