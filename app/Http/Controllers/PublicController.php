@@ -33,19 +33,19 @@ class PublicController extends Controller
                 'id' => 4, 
                 'title' => 'Manutenzioni impianti eolici', 
                 'alt' => 'Manutenzioni', 
-                'img' => 'img/projects/progetto4.jpeg'
+                'img' => 'img/projects/progetto4.webp'
             ],
             [
                 'id' => 5, 
                 'title' => 'Istallazione 50kwp fotovoltaico', 
                 'alt' => "Istallazione 50kwp fotovoltaico", 
-                'img' => 'img/projects/progetto5.jpeg'
+                'img' => 'img/projects/progetto5.webp'
             ],
             [
                 'id' => 6, 
                 'title' => 'Impianto fotovoltaico da 6kw con pannelli SUNPOWER da 400w e pacco batteria da 7.5kw SONNEN', 
                 'alt' => 'Impianto fotovoltaico da 6kw', 
-                'img' => 'img/projects/progetto6.jpeg'
+                'img' => 'img/projects/progetto6.webp'
             ],
         ];
 

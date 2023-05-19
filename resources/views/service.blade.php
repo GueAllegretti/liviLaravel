@@ -45,7 +45,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto8.jpeg);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto8.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
       </div>
 
     </div>
@@ -56,7 +56,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto7.jpeg);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto7.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
 
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Impianti civili</h3>
@@ -123,7 +123,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto9.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto9.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
 
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Movimento Terra</h3>
@@ -172,7 +172,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto10.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto10.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
       </div>
 
     </div>
@@ -183,7 +183,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto11.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto11.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
 
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Assistenza Impianti</h3>
