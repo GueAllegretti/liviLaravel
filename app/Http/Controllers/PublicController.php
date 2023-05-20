@@ -15,37 +15,37 @@ class PublicController extends Controller
                 'id' => 1, 
                 'title' => 'Impianto fotovoltaico 6.70kw', 
                 'alt' => 'Impianto fotovoltaico', 
-                'img' => 'img/projects/progetto1.jpeg'
+                'img' => 'img/projects/progetto1.webp'
             ],
             [
                 'id' => 2, 
                 'title' => 'Impianto fotovoltaico da 7kw Sunpower a ISOLA con il nuovo sistema di blackout Tesla e accumolo Tesla', 
                 'alt' => 'Impianto fotovoltaico da 7kw', 
-                'img' => 'img/projects/progetto2.jpeg'
+                'img' => 'img/projects/progetto2.webp'
             ],
             [
                 'id' => 3, 
                 'title' => 'Impianto fotovoltaico Autogrill la Sosta Matera', 
                 'alt' => 'Impianto fotovoltaico', 
-                'img' => '/img/projects/progetto3.jpeg'
+                'img' => '/img/projects/progetto3.webp'
             ],
             [
                 'id' => 4, 
                 'title' => 'Manutenzioni impianti eolici', 
                 'alt' => 'Manutenzioni', 
-                'img' => 'img/projects/progetto4.jpeg'
+                'img' => 'img/projects/progetto4.webp'
             ],
             [
                 'id' => 5, 
                 'title' => 'Istallazione 50kwp fotovoltaico', 
                 'alt' => "Istallazione 50kwp fotovoltaico", 
-                'img' => 'img/projects/progetto5.jpeg'
+                'img' => 'img/projects/progetto5.webp'
             ],
             [
                 'id' => 6, 
                 'title' => 'Impianto fotovoltaico da 6kw con pannelli SUNPOWER da 400w e pacco batteria da 7.5kw SONNEN', 
                 'alt' => 'Impianto fotovoltaico da 6kw', 
-                'img' => 'img/projects/progetto6.jpeg'
+                'img' => 'img/projects/progetto6.webp'
             ],
         ];
 
@@ -54,10 +54,10 @@ class PublicController extends Controller
 
     public function about() {
         $certifications = [
-            ['id' => 1, 'img' => '/img/about/5.jpg'],
-            ['id' => 2, 'img' => '/img/about/6.jpg'],
-            ['id' => 3, 'img' => '/img/about/7.jpg'],
-            ['id' => 4, 'img' => '/img/about/8.jpg']
+            ['id' => 1, 'img' => '/img/about/5.webp'],
+            ['id' => 2, 'img' => '/img/about/6.webp'],
+            ['id' => 3, 'img' => '/img/about/7.webp'],
+            ['id' => 4, 'img' => '/img/about/8.webp']
         ];
         return view ('about', ['certifications' => $certifications]);
     }
