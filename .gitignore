@@ -17,6 +17,3 @@ yarn-error.log
 # public/img
 .env.example
 .vercel
-public/img/projects
-public/img/about
-public/img/azienda.jpg
