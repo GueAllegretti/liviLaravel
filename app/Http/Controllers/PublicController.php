@@ -71,7 +71,11 @@ class PublicController extends Controller
     }
 
     public function services() {
-        return view('service');
+        $servicesDetails = [
+            ['id' => 1, 'name' => 'Impianti industriali', 'img' => '/img/projects/progetto8.webp', 'description1' => "Progettiamo e realizziamo impianti e automazione industriale all’interno di nuove costruzioni e messa a norma di edifici esistenti.", 'description2' => "Poniamo particolare attenzione nella fornitura e cablaggio di quadri elettrici, gruppi di continuità e gruppi elettrogeni.", 'description3' => "Le strutture interessate sono: capannoni industriali, strutture sportive quali palestre, piscine,ecc.., centrali termiche, centri commerciali e magazzini"],
+            ['id' => 2, 'name' => 'Impianti civili', 'img' => 'img/projects/progetto7.webp', 'description1' => "Progettiamo e realizziamo impianti elettrici civili in grado di soddisfare le più disparate esigenze personali così da rendere il proprio ambiente unico e personalizzato.", 'description2' => "Tutti i servizi vengono offerti “chiavi in mano” in modo da garantire i lavori senza il minimo disturbo, occupandoci della progettazione, della costruzione e dei relativi problemi legati all’allacciamento con il gestore di fornitura elettrica.", 'description3' => "Particolare attenzione viene posta alla realizzazione di impianti domotici, impianto che introduce nelle nostre case il concetto di casa intelligente al fine di poter gestire e controllare la nostra casa da qualsiasi terminale, quale internet, cellulare o addirittura in automatico così da dare un aiuto e sollievo a noi ed in particolar modo alle persone diversamente abili."]
+        ];
+        return view('service', ['servicesDetails' => $servicesDetails]);
     }
 
 }

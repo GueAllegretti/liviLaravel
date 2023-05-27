@@ -20,7 +20,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
-        <div class="col-lg-5 d-flex flex-column justify-content-center">
+        {{-- <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Impianti industriali</h3>
 
           <div class="icon d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
@@ -46,8 +46,18 @@
         </div>
 
         <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto8.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
-      </div>
+      </div> --}}
+      @foreach($servicesDetails as $servicesDetail)
 
+      <x-cardServicesDetails
+        id="{{$servicesDetail['id']}}"
+        name="{{$servicesDetail['name']}}"
+        img="{{$servicesDetail['img']}}"
+        description1="{{$servicesDetail['description1']}}"
+        description2="{{$servicesDetail['description2']}}"
+        description3="{{$servicesDetail['description3']}}"
+      />
+      @endforeach
     </div>
   </section>
 
@@ -55,7 +65,7 @@
   <section id="services" class="services">
     <div class="container" data-aos="fade-up">
 
-      <div class="row justify-content-around gy-4">
+      {{-- <div class="row justify-content-around gy-4">
         <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto7.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
 
         <div class="col-lg-5 d-flex flex-column justify-content-center">
@@ -83,7 +93,7 @@
           </div>
 
         </div>
-      </div>
+      </div> --}}
 
     </div>
   </section>
