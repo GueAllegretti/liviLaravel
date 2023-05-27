@@ -14,10 +14,6 @@ yarn-error.log
 /.idea
 /.vscode
 *.DS_Store
-# public/img
+public/img
 .env.example
 .vercel
-public/img/about
-public/img/projects
-public/img/azienda.jpg
-public/img/mast-head.webp
