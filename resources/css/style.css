@@ -159,14 +159,6 @@ section {
   color: var(--color-standard);
 }
 
-/* CERTIFICATIONS */
-.certifications .card-item {
-  border: 1px solid rgba(82, 86, 94, 0.2);
-  background: var(--color-standard);
-  position: relative;
-  border-radius: 0;
-}
-
 /* SERVICES */
 .service-livi {
   padding: 40px;
@@ -409,6 +401,10 @@ section {
 
 .contact .info-item p, .contact .info-item a {
   color: #364d59;
+}
+
+.text-contact:hover {
+  color: var(--color-primary) !important;
 }
 
 /* BANNER */
