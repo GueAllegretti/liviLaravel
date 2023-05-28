@@ -14,7 +14,6 @@
     </div>
   </div>
 
-  {{-- TODO change description add keywords --}}
 
   <section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
@@ -47,17 +46,7 @@
 
         <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto8.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
       </div>
-      {{-- @foreach($servicesDetails as $servicesDetail)
 
-      <x-cardServicesDetails
-        id="{{$servicesDetail['id']}}"
-        name="{{$servicesDetail['name']}}"
-        img="{{$servicesDetail['img']}}"
-        description1="{{$servicesDetail['description1']}}"
-        description2="{{$servicesDetail['description2']}}"
-        description3="{{$servicesDetail['description3']}}"
-      />
-      @endforeach --}}
     </div>
   </section>
 
@@ -122,7 +111,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto3.jpeg);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto3.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
       </div>
 
     </div>
@@ -142,13 +131,6 @@
             <i class="bi bi-caret-right p-3"></i>
             <div>
               <p>Realizzazione impianti di movimento terra, pulizie stradali, pulizie cunette e taglio erba parchi fotovoltaici di grandi dimensioni.</p>
-            </div>
-          </div>
-
-          <div class="icon d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="200">
-            <i class="bi bi-caret-right p-3"></i>
-            <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorum reprehenderit unde consequuntur consectetur porro cumque repudiandae omnis placeat quod! Iusto itaque molestiae consequuntur et nesciunt eius quibusdam vel ad.</p>
             </div>
           </div>
 
@@ -204,12 +186,6 @@
               <p>Servizio di manutenzione programmata e/o su chiamata su impianti elettrici, pubblica illuminazione, parchi fotovoltaici e parchi eolici anche H24.</p>
             </div>
           </div>
-
-          <div class="icon d-flex position-relative mt-2" data-aos="fade-up" data-aos-delay="300">
-            <i class="bi bi-caret-right p-3"></i>
-            <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nisi nemo fuga hic blanditiis porro maiores labore iure provident beatae sequi asperiores iste voluptate, modi, iusto perferendis mollitia rem natus!</p>
-            </div>
           </div>
 
         </div>
