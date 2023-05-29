@@ -17,3 +17,4 @@ yarn-error.log
 .env.example
 .vercel
 public/img/mast-head.webp
+public/img/projects
