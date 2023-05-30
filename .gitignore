@@ -16,5 +16,5 @@ yarn-error.log
 *.DS_Store
 .env.example
 .vercel
-public/img/mast-head.webp
-public/img/projects
+public/img
+storage/logs
