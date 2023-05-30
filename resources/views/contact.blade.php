@@ -1,6 +1,5 @@
 <x-layout>
 
-
   <x-slot name="title">Contatti</x-slot>
 
   <div class="breadcrumbs d-flex align-items-center">
