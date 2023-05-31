@@ -26,6 +26,11 @@
             "dest": "/api/index.php"
         }
     ],
+    "functions": {
+        "api/**/*.py": {
+          "excludeFiles": "{node_modules/**/*,.next/**/*,.vercel/**/*}"
+        }
+      },
     "env": {
         "APP_NAME": "livi-laravel",
         "APP_ENV": "production",
