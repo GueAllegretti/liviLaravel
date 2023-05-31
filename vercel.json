@@ -5,7 +5,14 @@
         { "src": "/public/**", "use": "@vercel/static" }
     ],
     "routes": [
-
+        {
+            "src": "/(css|js)/(.*)",
+            "dest": "public/$1/$2"
+        },
+        {
+            "src": "/fonts/(.*)",
+            "dest": "/public/fonts/$1"
+        },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
