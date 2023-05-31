@@ -10,6 +10,14 @@
             "dest": "public/$1/$2"
         },
         {
+            "src": "/img/(.*)",
+            "dest": "/public/img/$1"
+        },
+        {
+            "src": "/favicon/(.*)",
+            "dest": "/public/"
+        },
+        {
             "src": "/fonts/(.*)",
             "dest": "/public/fonts/$1"
         },
