@@ -17,4 +17,7 @@ yarn-error.log
 .env.example
 .vercel
 storage/logs
-public/img
+public/img/about
+public/img/projects
+public/img/mast-head.webp
+public/img/azienda.jpg
