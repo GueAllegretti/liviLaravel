@@ -55,7 +55,8 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto7.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
+        {{-- <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto7.webp);" data-aos="zoom-in" data-aos-delay="100"></div> --}}
+        <div class="col-lg-6 img-bg" style="background-image: url(https://ik.imagekit.io/reko7evs1/progetto7.webp?updatedAt=1685565179143);" data-aos="zoom-in" data-aos-delay="100"></div>
 
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Impianti civili</h3>
@@ -111,7 +112,8 @@
           </div>
         </div>
 
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto3.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
+        {{-- <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto3.webp);" data-aos="zoom-in" data-aos-delay="100"></div> --}}
+        <div class="col-lg-6 img-bg" style="background-image: url(https://ik.imagekit.io/reko7evs1/progetto3.webp?updatedAt=1685565177051p);" data-aos="zoom-in" data-aos-delay="100"></div>
       </div>
 
     </div>
@@ -122,8 +124,8 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto9.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
-
+        {{-- <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto9.webp);" data-aos="zoom-in" data-aos-delay="100"></div> --}}
+        <div class="col-lg-6 img-bg" style="background-image: url(https://ik.imagekit.io/reko7evs1/progetto9.webp?updatedAt=1685565179227);" data-aos="zoom-in" data-aos-delay="100"></div>
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Movimento Terra</h3>
 
@@ -163,8 +165,9 @@
             </div>
           </div>
         </div>
-
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto10.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
+       
+        <div class="col-lg-6 img-bg" style="background-image: url(https://ik.imagekit.io/reko7evs1/progetto10.webp?updatedAt=1685565179304);" data-aos="zoom-in" data-aos-delay="100"></div>
+        {{-- <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto10.webp);" data-aos="zoom-in" data-aos-delay="100"></div> --}}
       </div>
 
     </div>
