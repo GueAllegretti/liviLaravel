@@ -15,7 +15,8 @@
       <div class="container" data-aos="fade-up">
         <div class="row position-relative">
           <div class="col-lg-7 about-img">
-          <img src="/img/azienda.jpg" class="img-fluid w-75" alt="azienda">
+          <img src="https://ik.imagekit.io/reko7evs1/azienda.jpg?updatedAt=1685563647007" class="img-fluid w-75" alt="azienda">
+          {{-- <img src="/img/azienda.jpg" class="img-fluid w-75" alt="azienda"> --}}
         </div>
           <div class="col-lg-7">
             <h2>Chi Siamo</h2>

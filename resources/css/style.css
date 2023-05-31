@@ -74,7 +74,8 @@ section {
 }
 
 .breadcrumbs {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('/img/mast-head.webp');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('https://ik.imagekit.io/reko7evs1/mast-head.webp?updatedAt=1685563647945');
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('/img/mast-head.webp'); */
   padding: 140px 0 60px 0;
   min-height: 30vh;
   position: relative;
@@ -414,7 +415,8 @@ section {
 }
 
 .masthead {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(/img/mast-head.webp);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(/img/mast-head.webp); */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url('https://ik.imagekit.io/reko7evs1/mast-head.webp?updatedAt=1685563647945');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -464,7 +466,8 @@ section {
 /* FOOTER */
 .footer {
   color: var(--color-standard);
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/img/mast-head.webp") top center no-repeat;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/img/mast-head.webp") top center no-repeat; */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("https://ik.imagekit.io/reko7evs1/mast-head.webp?updatedAt=1685563647945") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   position: relative;
