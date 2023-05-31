@@ -18,6 +18,5 @@ yarn-error.log
 .vercel
 storage/logs
 public/img/about
-public/img/projects
 public/img/mast-head.webp
 public/img/azienda.jpg
