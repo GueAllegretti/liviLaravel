@@ -7,7 +7,7 @@
     <meta name="description" content="@yield('meta_description','Realizzazione di impianti domotici di ogni tipo, in ambienti pubblici e privati, alimentati ad energia solare o elica. Realizzazione di impianti di sicurezza quali antincendio, antintrusione, videosorveglianza, automazione.')">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
+<link rel="stylesheet" href="{{ secure_asset('CSS/app.css') }}">
 {{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
 
 <title>{{isset($title) ? $title:'Livi Impianti'}}</title>
