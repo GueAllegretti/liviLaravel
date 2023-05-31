@@ -10,14 +10,6 @@
             "dest": "public/$1/$2"
         },
         {
-            "src": "/img/(.*)",
-            "dest": "/public/img/$1"
-        },
-        {
-            "src": "/favicon/(.*)",
-            "dest": "/public/"
-        },
-        {
             "src": "/fonts/(.*)",
             "dest": "/public/fonts/$1"
         },
@@ -26,11 +18,6 @@
             "dest": "/api/index.php"
         }
     ],
-    "functions": {
-        "api/**/*.py": {
-          "excludeFiles": "{node_modules/**/*,.next/**/*,.vercel/**/*}"
-        }
-      },
     "env": {
         "APP_NAME": "livi-laravel",
         "APP_ENV": "production",
