@@ -38,7 +38,7 @@
 
         <br/>
         <h5 class="fw-normal">Cookie analytics</h5>
-        <p class="fw-light">Al solo fine di monitorare e migliorare le prestazioni del sito ci si avvale di un prodotto di mercato di analisi statistica per la rilevazione degli accessi al sito. Esso può ricorrere all'utilizzo di cookies, permanenti e non, allo scopo di raccogliere informazioni statistiche e sui "visitatori unici" del sito. I cookies, definiti come "Unique Visitor Cookies", contengono un codice alfanumerico che identifica i computer di navigazione, senza tuttavia alcuna raccolta di dati personali.</p>
+        <p class="fw-light">Il sito non si avvale di alcun prodotto di mercato per l'analisi statistica o per la rilevazione degli accessi al sito.</p>
 
         <br/>
         <h5 class="fw-normal">Durata dei cookie</h5>
@@ -51,9 +51,6 @@
         <br/>
         <p class="fw-lighter">A titolo di esempio riportiamo alcuni link:</p>
         <ul>
-            <li class="fw-lighter">
-                <a href="https://policies.google.com/privacy?hl=it&gl=it" target="blank" class="link-cg"><i class="fa-solid fa-caret-right me-2"></i>Google Analytics</a>
-            </li>
             <li class="fw-lighter">
                 <a href="https://policies.google.com/technologies/cookies" target="blank" class="link-cg"><i class="fa-solid fa-caret-right me-2"></i>Google+</a>
             </li>
