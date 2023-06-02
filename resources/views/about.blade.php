@@ -15,7 +15,7 @@
       <div class="container" data-aos="fade-up">
         <div class="row position-relative">
           <div class="col-lg-7 about-img">
-          <img src="https://ik.imagekit.io/reko7evs1/azienda.jpg?updatedAt=1685563647007" class="img-fluid w-75" alt="azienda">
+          <img src="https://ik.imagekit.io/reko7evs1/azienda.jpg?updatedAt=1685738282140" class="img-fluid" alt="azienda">
           {{-- <img src="/img/azienda.jpg" class="img-fluid w-75" alt="azienda"> --}}
         </div>
           <div class="col-lg-7">
@@ -24,14 +24,14 @@
               <p>LIVI IMPIANTI è un'azienda giovane e dinamica, operiamo a 360° nell’ambito dell’impiantistica elettrica al fine di poter soddisfare ogni esigenza. Nello specifico ci occupiamo di:
                 </p>
               <ul>
-                <li class="pb-2"><i class="bi bi-check-circle fs-5 me-3"></i> Progettazione, costruzione e manutenzione impianti elettrici civili ed industriali;</li>
-                <li class="pb-2"><i class="bi bi-check-circle fs-5 me-3"></i> Progettazione, costruzione e manutenzione di impianti elettrici domotici;</li>
-                <li class="pb-2"><i class="bi bi-check-circle fs-5 me-3"></i> Progettazione, costruzione e manutenzione di impianti fotovoltaici ed eolici;</li>
-                <li class="pb-2"><i class="bi bi-check-circle fs-5 me-3"></i> Realizzazione impianti a fibre ottiche;</li>
-                <li class="pb-2"><i class="bi bi-check-circle fs-5 me-3"></i> Progettazione, costruzione e manutenzione di impianti antintrusione e videosorveglianza;</li>
+                <li class="py-2"><i class="bi bi-check-circle fs-5 me-3"></i> Progettazione, costruzione e manutenzione impianti elettrici civili ed industriali;</li>
+                <li class="py-2"><i class="bi bi-check-circle fs-5 me-3"></i> Progettazione, costruzione e manutenzione di impianti elettrici domotici;</li>
+                <li class="py-2"><i class="bi bi-check-circle fs-5 me-3"></i> Progettazione, costruzione e manutenzione di impianti fotovoltaici ed eolici;</li>
+                <li class="py-2"><i class="bi bi-check-circle fs-5 me-3"></i> Realizzazione impianti a fibre ottiche;</li>
+                <li class="py-2"><i class="bi bi-check-circle fs-5 me-3"></i> Progettazione, costruzione e manutenzione di impianti antintrusione e videosorveglianza;</li>
                 <li><i class="bi bi-check-circle fs-5 me-3"></i> Progettazione e costruzioni di reti LAN;</li>
               </ul>  
-              <div class="watch-video d-flex align-items-center position-relative">
+              <div class="watch-video d-flex align-items-center justify-content-end position-relative pb-3">
                 <i class="bi bi-play-circle fs-3"></i>
                 <a href="https://www.facebook.com/liviimpianti/videos/3248417628611712" class="glightbox fw-bolder ms-2" target="_blank">Guarda Video</a>
               </div>
