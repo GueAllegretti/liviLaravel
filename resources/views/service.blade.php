@@ -1,4 +1,4 @@
-@section('meta_keywords','elettricista, assistenza, manutenzione, impianti elettrici, antintrusione, fotovoltaico, videosorveglianza, cancello elettrico, telecamere per interno e esterno, serrande, smart, domotico')
+@section('meta_keywords','elettricista, assistenza, manutenzione, impianti elettrici, antintrusione, fotovoltaico, videosorveglianza, cancello elettrico, telecamere per interno e esterno, serrande, smart, domotico, movimento terra, fonti rinnovabili')
 @section('meta_description', 'Realizzazione di impianti di automazioni, impianti di rilevazione fumi, impianti di TVCC e antintrusione, impianti fotovoltaici, assistenza e manutenzione di impianti esistenti')
 
 <x-layout>
@@ -44,7 +44,8 @@
           </div>
         </div>
 
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto8.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(https://ik.imagekit.io/reko7evs1/progetto8.webp?updatedAt=1685565178904);" data-aos="zoom-in" data-aos-delay="100"></div>
+        {{-- <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto8.webp);" data-aos="zoom-in" data-aos-delay="100"></div> --}}
       </div>
 
     </div>
@@ -178,7 +179,8 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-around gy-4">
-        <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto11.webp);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(https://ik.imagekit.io/reko7evs1/progetto11.webp?updatedAt=1685565179186);" data-aos="zoom-in" data-aos-delay="100"></div>
+        {{-- <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto11.webp);" data-aos="zoom-in" data-aos-delay="100"></div> --}}
 
         <div class="col-lg-5 d-flex flex-column justify-content-center">
           <h3 class="fs-3">Assistenza Impianti</h3>

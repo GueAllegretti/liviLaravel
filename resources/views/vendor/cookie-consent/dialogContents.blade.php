@@ -16,9 +16,11 @@
                  <div class="row">
                     <div class="col-12">
                         <div class="mt-2 flex-shrink-0 w-full sm:mt-0 sm:w-auto">
-                            <button class="btn-masthead js-cookie-consent-agree cookie-consent__agree flex items-center justify-center px-4 py-2 rounded-md text-sm text-black fw-light fs-6 me-3">
-                                <a href="{{route('cookies')}}">Leggi di più</a>
-                            </button>
+                            <a href="{{route('cookies')}}">
+                                <button class="btn-masthead js-cookie-consent-agree cookie-consent__agree flex items-center justify-center px-4 py-2 rounded-md text-sm text-black fw-light fs-6 me-3">
+                                    Leggi di più
+                                </button>
+                            </a>
                             <button class="btn-masthead js-cookie-consent-agree cookie-consent__agree flex items-center justify-center px-4 py-2 rounded-md text-sm text-black fw-light fs-6 me-3">
                                 {{ trans('cookie-consent::texts.agree') }}
                             </button>

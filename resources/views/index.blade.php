@@ -1,5 +1,5 @@
-@section('meta_keywords','elettricista Pomarico (Matera), assistenza, manutenzione, impianti elettrici, impianti allarme, impianti di automazioni, impianti di rilevazione fumi, impianti di TVCC, antintrusione, impianti fotovoltaici, assistenza, impianti antincendio, cablaggio strutturato, manutenzione di impianti esistenti, impianti domotici')
-@section('meta_description', 'Azienda con sede a Pomarico (Matera), professionisti in impianti elettrici, illuminotecnici e domotici. Installazione di impianti antincendio e videosorveglianza, pannelli fotovoltaici, automazioni civili e industriali')
+@section('meta_keywords','elettricista Pomarico, elettricista Matera, assistenza, manutenzione, impianti elettrici, impianti allarme, impianti di automazioni, impianti di rilevazione fumi, impianti di TVCC, antintrusione, impianti fotovoltaici, assistenza, impianti antincendio, cablaggio strutturato, manutenzione di impianti esistenti, impianti domotici, movimento terra')
+@section('meta_description', 'Azienda con sede a Pomarico (Matera), professionisti in impianti elettrici, illuminotecnici e domotici. Installazione e manutenzione di impianti antincendio e videosorveglianza, pannelli fotovoltaici, automazioni civili e industriali')
 
 <x-layout>
   <x-slot name="title">Livi Impianti</x-slot>
