@@ -511,9 +511,8 @@ section {
 /* COOKIES */
 .close {
   position: absolute;
-  right: 32px;
+  right: 35px;
   top: 12px;
-  width: 10px;
   height: 32px;
   opacity: 0.3;
 }
