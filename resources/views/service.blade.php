@@ -44,7 +44,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 img-bg" style="background-image: urlhttps://ik.imagekit.io/reko7evs1/progetto8.webp?updatedAt=1689888592329);" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="col-lg-6 img-bg" style="background-image: url(https://ik.imagekit.io/reko7evs1/progetto8.webp?updatedAt=1689888592329);" data-aos="zoom-in" data-aos-delay="100"></div>
         {{-- <div class="col-lg-6 img-bg" style="background-image: url(img/projects/progetto8.webp);" data-aos="zoom-in" data-aos-delay="100"></div> --}}
       </div>
 
